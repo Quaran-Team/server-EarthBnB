@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EarthBnB" target="1.8" />
+      <module name="EarthBnB" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
