@@ -13,25 +13,27 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EarthBnB</name>
 	<description>Demo project for Spring Boot</description>
-
-	<!--	<properties>-->
-	<!--		<java.version>1.8</java.version>-->
-	<!--		<flyway.user>mysql</flyway.user>-->
-	<!--		<flyway.password>root</flyway.password>-->
-	<!--		<flyway.url>jdbc:mysql://localhost:3306/earthdb</flyway.url>-->
-	<!--		<flyway.version>6.5.2</flyway.version>-->
-	<!--		<kotlin.version>1.4.0-rc</kotlin.version>-->
-	<!--	</properties>-->
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+<!--		<properties>-->
+<!--			<flyway.version>3.2.1</flyway.version>-->
+<!--			<mysql.driver.version>5.1.13</mysql.driver.version>-->
+<!--			<database.driver>com.mysql.jdbc.Driver</database.driver>-->
+<!--			<database.url>jdbc:mysql://localhost:3306/earthdb?autoreconnect=true</database.url>-->
+<!--			<database.username>root</database.username>-->
+<!--			<database.password>root</database.password>-->
+<!--		</properties>-->
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		<!--		<dependency>-->
-		<!--			<groupId>org.flywaydb</groupId>-->
-		<!--			<artifactId>flyway-core</artifactId>-->
-		<!--		</dependency>-->
+				<dependency>
+					<groupId>org.flywaydb</groupId>
+					<artifactId>flyway-core</artifactId>
+				</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>

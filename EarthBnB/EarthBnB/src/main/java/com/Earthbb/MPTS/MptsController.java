@@ -9,6 +9,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/mpts")
 public class MptsController {
+
     @Autowired
     private MptsRepository mptsRepository;
 

@@ -1,0 +1,57 @@
+create table main (
+id bigint not null auto_increment,
+rating decimal,
+rating_amount int,
+superhost boolean,
+price decimal,
+address varchar(70),
+city varchar(30),
+state_territory varchar(30),
+country varchar(30),
+international boolean,
+zip int(5),
+title varchar(50),
+host varchar(50),
+guests int(3),
+beds int(3),
+bedrooms int(3),
+bathrooms int(3),
+primary key(id)
+);
+
+
+insert into main (
+        rating,
+        rating_amount,
+        superhost,
+        price,
+        address,
+        city,
+        state_territory,
+        country,
+        international,
+        zip,
+        title,
+        host,
+        guests,
+        beds,
+        bedrooms,
+        bathrooms
+    ) values (
+        1.79,
+        165,
+        true,
+        19.00,
+        '4706 W Irlo Bronson Memorial Pky',
+        'Kissimmee',
+        'FL',
+        'USA',
+        false,
+        34746,
+        'Shack Outside with Hot Tub',
+         'Uncle Iroh',
+        7,
+        5,
+         1,
+         1
+    );
