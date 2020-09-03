@@ -6,6 +6,7 @@ import javax.persistence.*;
 
 
 @Table(name="main")
+
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Mpts {
@@ -52,7 +53,6 @@ public class Mpts {
 
     public Mpts() {
     }
-
     public Long getId() {
         return id;
     }
@@ -188,4 +188,5 @@ public class Mpts {
     public void setBathrooms(int bathrooms) {
         this.bathrooms = bathrooms;
     }
+
 }
