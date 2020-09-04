@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EarthBnB/EarthBnB.iml" filepath="$PROJECT_DIR$/EarthBnB/EarthBnB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EarthBnB.iml" filepath="$PROJECT_DIR$/EarthBnB.iml" />
     </modules>
   </component>
 </project>
