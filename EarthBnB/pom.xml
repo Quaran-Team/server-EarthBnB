@@ -16,14 +16,6 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
-<!--		<properties>-->
-<!--			<flyway.version>3.2.1</flyway.version>-->
-<!--			<mysql.driver.version>5.1.13</mysql.driver.version>-->
-<!--			<database.driver>com.mysql.jdbc.Driver</database.driver>-->
-<!--			<database.url>jdbc:mysql://localhost:3306/earthdb?autoreconnect=true</database.url>-->
-<!--			<database.username>root</database.username>-->
-<!--			<database.password>root</database.password>-->
-<!--		</properties>-->
 
 	<dependencies>
 		<dependency>
@@ -63,6 +55,16 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
 			<version>2.3.2.RELEASE</version>
+		</dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-rest-webmvc</artifactId>
+			<version>3.3.1.RELEASE</version>
 		</dependency>
 	</dependencies>
 
