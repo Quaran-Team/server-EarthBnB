@@ -2,12 +2,13 @@ package com.Earthbb.MPTS;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
+import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
+@CrossOrigin(origins = { "http://localhost:4200" })
 @RestController
 @RequestMapping("/api/v1/mpts")
 public class MptsController {
@@ -50,5 +51,4 @@ public class MptsController {
         final Mpts updated = mptsRepository.save(mpts);
         return ResponseEntity.ok(updated);
     }
-
 }

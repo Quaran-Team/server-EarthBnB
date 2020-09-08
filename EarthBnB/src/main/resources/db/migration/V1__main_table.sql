@@ -1,10 +1,10 @@
-create table main (
+create table locations (
 id bigint not null auto_increment,
 rating decimal,
-rating_amount int,
+numberofratings int,
 superhost boolean,
 price decimal,
-address varchar(70),
+street varchar(70),
 city varchar(30),
 state_territory varchar(30),
 country varchar(30),
@@ -18,3 +18,6 @@ bedrooms int(3),
 bathrooms int(3),
 primary key(id)
 );
+
+
+
