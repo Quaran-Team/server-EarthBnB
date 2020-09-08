@@ -29,7 +29,6 @@ responsetime
     100,
     1
     );
-
 insert into hostdata (
 joindate,
 idverifided,
@@ -49,7 +48,6 @@ responsetime
     100,
     1
     );
-
 insert into hostdata (
 joindate,
 idverifided,

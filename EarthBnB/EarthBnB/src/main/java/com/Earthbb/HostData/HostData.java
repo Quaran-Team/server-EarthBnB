@@ -14,7 +14,7 @@ public class HostData {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private int joindate;
-    private boolean idverifieded;
+    private boolean idverifided;
     private String biography;
     private String cohosts;
     private String duringstay;
@@ -22,10 +22,10 @@ public class HostData {
     private int responserate;
     private int responsetime;
 
-    public HostData(Long id, int joindate, boolean idverifieded, String biography, String cohosts, String duringstay, String communication, int responserate, int responsetime) {
+    public HostData(Long id, int joindate, boolean idverifided, String biography, String cohosts, String duringstay, String communication, int responserate, int responsetime) {
         this.id = id;
         this.joindate = joindate;
-        this.idverifieded = idverifieded;
+        this.idverifided = idverifided;
         this.biography = biography;
         this.cohosts = cohosts;
         this.duringstay = duringstay;
@@ -55,11 +55,11 @@ public class HostData {
     }
 
     public boolean isIdverifieded() {
-        return idverifieded;
+        return idverifided;
     }
 
-    public void setIdverifieded(boolean idverifieded) {
-        this.idverifieded = idverifieded;
+    public void setIdverifieded(boolean idverifided) {
+        this.idverifided = idverifided;
     }
 
     public String getBiography() {
