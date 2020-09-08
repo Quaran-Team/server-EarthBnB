@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 @Table(name="hostdata")
 
-@Entity
+@Entity 
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class HostData {
     @Id

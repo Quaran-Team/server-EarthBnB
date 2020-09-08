@@ -1,4 +1,4 @@
-create table hostdata (
+create table hostdata ( 
 id bigint not null auto_increment,
 joindate int,
 idverifided boolean,

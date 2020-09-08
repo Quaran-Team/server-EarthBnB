@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/hostdata/")
 public class HostDataController {
 
-    @Autowired
+    @Autowired 
     private HostDataRepository hostRepository;
 
     @GetMapping
