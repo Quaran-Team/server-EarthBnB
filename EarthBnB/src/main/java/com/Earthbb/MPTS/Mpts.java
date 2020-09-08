@@ -11,7 +11,9 @@ import javax.persistence.*;
 
 
 @Table(name="locations")
-
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Mpts {
@@ -40,28 +42,6 @@ public class Mpts {
             cascade = CascadeType.ALL)
     private Set<Reviews> reviews;
 
-    public Mpts(Long id, double rating, int rating_amount, Boolean superhost, double price, String address, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms) {
-        this.id = id;
-        this.rating = rating;
-        this.rating_amount = rating_amount;
-        this.superhost = superhost;
-        this.price = price;
-        this.address = address;
-        this.city = city;
-        this.state_territory = state_territory;
-        this.country = country;
-        this.international = international;
-        this.zip = zip;
-        this.title = title;
-        this.host = host;
-        this.guests = guests;
-        this.beds = beds;
-        this.bedrooms = bedrooms;
-        this.bathrooms = bathrooms;
-    }
-
-    public Mpts() {
-    }
     public Long getId() {
         return id;
     }

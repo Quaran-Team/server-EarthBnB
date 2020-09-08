@@ -55,6 +55,6 @@ public class Reviews {
 
     @Column(name = "locationreviewed", columnDefinition = "json")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "locations_id", nullable = false)
+    @JoinColumn(name = "locations_id", nullable = false, referencedColumnName = "id")
     private Mpts location; //should be a foreign key to location id
 }
