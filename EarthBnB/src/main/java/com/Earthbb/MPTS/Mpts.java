@@ -1,11 +1,16 @@
 package com.Earthbb.MPTS;
 
+import lombok.*;
+
+import com.Earthbb.Reviews.Reviews;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.util.Set;
 
 import javax.persistence.*;
 
 
-@Table(name="main")
+@Table(name="locations")
 
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
@@ -30,6 +35,10 @@ public class Mpts {
     private int beds;
     private int bedrooms;
     private int bathrooms;
+
+    @OneToMany(mappedBy = "location", fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL)
+    private Set<Reviews> reviews;
 
     public Mpts(Long id, double rating, int rating_amount, Boolean superhost, double price, String address, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms) {
         this.id = id;
