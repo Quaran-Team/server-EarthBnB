@@ -6,12 +6,13 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//add cors handling
+
+@CrossOrigin(origins = { "http://localhost:4200" })
 @RestController
 @RequestMapping("/hostdata/")
 public class HostDataController {
 
-    @Autowired
+    @Autowired 
     private HostDataRepository hostRepository;
 
     @GetMapping
