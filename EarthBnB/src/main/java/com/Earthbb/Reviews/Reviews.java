@@ -61,6 +61,6 @@ public class Reviews {
     @Column(name = "posteddate")
     private String postedDate;
 
-    @Column(name = "locations_id")
+    @Column(name = "locationreviewed")
     private int locationId;
 }
