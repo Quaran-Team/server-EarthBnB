@@ -56,5 +56,5 @@ public class Reviews {
     private String postedDate;
 
     @Column(name = "locationreviewed")
-    private int locationReviewed;
+    private int locationReviewed; //this will be a foreign key later
 }
