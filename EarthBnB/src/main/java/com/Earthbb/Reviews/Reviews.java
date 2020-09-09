@@ -1,21 +1,20 @@
 package com.Earthbb.Reviews;
 
-import lombok.*;
-import lombok.experimental.Accessors;
-
-import com.Earthbb.MPTS.Mpts;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import org.hibernate.annotations.DynamicInsert;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 @Entity
 @Data // Lombok annotation; tells it to create getters and setters
@@ -62,8 +61,6 @@ public class Reviews {
     @Column(name = "posteddate")
     private String postedDate;
 
-    @Column(name = "locationreviewed", columnDefinition = "json")
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "locations_id", nullable = false, referencedColumnName = "id")
-    private Mpts locationrev;
+    @Column(name = "locations_id")
+    private int locationId;
 }
