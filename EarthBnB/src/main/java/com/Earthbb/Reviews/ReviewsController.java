@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = { "http://localhost:4200" })
 @RestController
-@RequestMapping("/reviews/")
+@RequestMapping("/api/v1/reviews")
 public class ReviewsController {
     @Autowired
     private ReviewsRepository reviewsRepository;
@@ -16,7 +16,7 @@ public class ReviewsController {
     @GetMapping
     public List<Reviews> list() { return reviewsRepository.findAll();}
 
-    @GetMapping("{id}")
+    @GetMapping("/{id}")
     public Reviews get(@PathVariable("id") long id) { return reviewsRepository.getOne(id);}
 
     @PostMapping

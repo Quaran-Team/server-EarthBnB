@@ -21,7 +21,6 @@ import lombok.experimental.Accessors;
 @Accessors (fluent = true)
 @AllArgsConstructor // lombok annotation to create constructor with all args
 @NoArgsConstructor // lombok annotation to create no-args constructor
-@DynamicInsert
 @Table(name = "reviews")
 // @TypeDef(name = "json", typeClass = JsonStringType.class)
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
