@@ -1,34 +1,16 @@
-create table reviews (
-    id BIGINT not null auto_increment,
-    username TEXT,
-    userprofile TEXT,
-    reviewtext TEXT,
-    reviewcategories JSON,
-    posteddate TEXT,
+CREATE TABLE reviews (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    username VARCHAR(255),
+    userprofile VARCHAR(255),
+    reviewtext VARCHAR(255),
+    category_cleanliness DECIMAL(2, 1),
+    category_accuracy DECIMAL(2, 1),
+    category_communication DECIMAL(2, 1),
+    category_location DECIMAL(2, 1),
+    category_checkin DECIMAL(2, 1),
+    category_value DECIMAL(2, 1),
+    posteddate VARCHAR(255),
     locationreviewed BIGINT,
     FOREIGN KEY (locationreviewed) REFERENCES locations(id),
     PRIMARY KEY (id)
 );
-INSERT INTO reviews (
-        username,
-        userprofile,
-        reviewtext,
-        reviewcategories,
-        posteddate,
-        locationreviewed,
-    )
-VALUES (
-        "Trevor",
-        "Trevor Profile link",
-        "This place was awesome. We have a lot of fun at local entertainment spots. Worth checking out.",
-        '{
-            "Cleanliness": 5.0,
-            "Accuracy": 5.0,
-            "Communication": 5.0,
-            "Location": 5.0,
-            "Check-in": 5.0,
-            "Value": 4.9
-        }',
-        "September 2020",
-        2
-    );

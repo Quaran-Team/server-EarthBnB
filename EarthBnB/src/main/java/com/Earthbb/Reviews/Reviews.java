@@ -5,11 +5,6 @@ import lombok.experimental.Accessors;
 
 import com.Earthbb.MPTS.Mpts;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.vladmihalcea.hibernate.type.json.JsonStringType;
-
-//import java.sql.Date; //might need this later when converting over to date values
-import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -21,7 +16,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.DynamicInsert;
-import org.hibernate.annotations.TypeDef;
 
 @Entity
 @Data // Lombok annotation; tells it to create getters and setters
@@ -30,31 +24,46 @@ import org.hibernate.annotations.TypeDef;
 @NoArgsConstructor // lombok annotation to create no-args constructor
 @DynamicInsert
 @Table(name = "reviews")
-@TypeDef(name = "json", typeClass = JsonStringType.class)
+// @TypeDef(name = "json", typeClass = JsonStringType.class)
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Reviews {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "reviewid")
+    @Column(name = "id")
     private long reviewId;
 
     @Column(name = "username")
     private String userName;
 
     @Column(name = "userprofile")
-    private String userprofile;
+    private String userProfile;
 
     @Column(name = "reviewtext")
     private String reviewText;
 
-    @Column(name = "reviewcategories", columnDefinition = "json")
-    private List<String> reviewCategories;
+    @Column(name = "category_cleanliness")
+    private double cleanliness;
 
-    @Column(name = "postedDate")
+    @Column(name = "category_accuracy")
+    private double accuracy;
+
+    @Column(name = "category_communication")
+    private double communication;
+
+    @Column(name = "category_location")
+    private double catLocation;
+
+    @Column(name = "category_checkin")
+    private double checkIn;
+
+    @Column(name = "category_value")
+    private double catValue;
+
+    @Column(name = "posteddate")
     private String postedDate;
 
     @Column(name = "locationreviewed", columnDefinition = "json")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "locations_id", nullable = false, referencedColumnName = "id")
-    private Mpts location; //should be a foreign key to location id
+    private Mpts locationrev;
 }

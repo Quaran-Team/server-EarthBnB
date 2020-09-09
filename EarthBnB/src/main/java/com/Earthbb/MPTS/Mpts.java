@@ -38,7 +38,7 @@ public class Mpts {
     private int bedrooms;
     private int bathrooms;
 
-    @OneToMany(mappedBy = "location", fetch = FetchType.LAZY,
+    @OneToMany(mappedBy = "locationrev", fetch = FetchType.LAZY,
             cascade = CascadeType.ALL)
     private Set<Reviews> reviews;
 

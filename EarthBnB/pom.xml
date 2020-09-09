@@ -16,6 +16,9 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<flyway.user>root</flyway.user>
+		<flyway.password>root</flyway.password>
+		<flyway.url>jdbc:mysql://localhost:3306/earthdb</flyway.url>
 	</properties>
 
 	<dependencies>
