@@ -11,6 +11,5 @@ CREATE TABLE `reviews` (
     `category_value` DECIMAL(2, 1),
     `posteddate` TEXT,
     `locationreviewed` BIGINT,
-    FOREIGN KEY (`locationreviewed`) REFERENCES `locations` (`id`),
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;

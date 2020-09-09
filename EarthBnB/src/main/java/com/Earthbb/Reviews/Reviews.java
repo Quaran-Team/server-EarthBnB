@@ -9,20 +9,15 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import org.hibernate.annotations.DynamicInsert;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.Accessors;
 
 @Entity
 @Data // Lombok annotation; tells it to create getters and setters
-@Accessors (fluent = true)
 @AllArgsConstructor // lombok annotation to create constructor with all args
 @NoArgsConstructor // lombok annotation to create no-args constructor
 @Table(name = "reviews")
-// @TypeDef(name = "json", typeClass = JsonStringType.class)
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Reviews {
     @Id
@@ -49,17 +44,17 @@ public class Reviews {
     private double communication;
 
     @Column(name = "category_location")
-    private double catLocation;
+    private double location;
 
     @Column(name = "category_checkin")
     private double checkIn;
 
     @Column(name = "category_value")
-    private double catValue;
+    private double value;
 
     @Column(name = "posteddate")
     private String postedDate;
 
     @Column(name = "locationreviewed")
-    private int locationId;
+    private int locationReviewed;
 }
