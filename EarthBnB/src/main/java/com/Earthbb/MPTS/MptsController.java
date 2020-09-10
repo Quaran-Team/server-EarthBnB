@@ -34,10 +34,10 @@ public class MptsController {
                                        @RequestBody Mpts mptsDetails) throws ResourceNotFoundException {
         Mpts mpts = mptsRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Sorry, we don't have that as your next get away!"));
         mpts.setRating(mptsDetails.getRating());
-        mpts.setRating_amount(mptsDetails.getRating_amount());
+        mpts.setNumberofratings(mptsDetails.getNumberofratings());
         mpts.setSuperhost(mptsDetails.getSuperhost());
         mpts.setPrice(mptsDetails.getPrice());
-        mpts.setAddress(mptsDetails.getAddress());
+        mpts.setStreet(mptsDetails.getStreet());
         mpts.setCity(mptsDetails.getCity());
         mpts.setState_territory(mptsDetails.getState_territory());
         mpts.setCountry(mptsDetails.getCountry());
