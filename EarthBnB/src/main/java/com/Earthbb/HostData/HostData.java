@@ -22,7 +22,11 @@ public class HostData {
     private int responserate;
     private int responsetime;
 
-    public HostData(Long id, int joindate, boolean idverifided, String biography, String cohosts, String duringstay, String communication, int responserate, int responsetime) {
+
+
+    private String hostimageurl;
+
+    public HostData(Long id, int joindate, boolean idverifided, String biography, String cohosts, String duringstay, String communication, int responserate, int responsetime, String hostimageurl) {
         this.id = id;
         this.joindate = joindate;
         this.idverifided = idverifided;
@@ -32,6 +36,7 @@ public class HostData {
         this.communication = communication;
         this.responserate = responserate;
         this.responsetime = responsetime;
+        this.hostimageurl = hostimageurl;
     }
 
     public HostData() {
@@ -110,5 +115,11 @@ public class HostData {
         this.responsetime = responsetime;
     }
 
+    public String getHostimageurl() {
+        return hostimageurl;
+    }
 
+    public void setHostimageurl(String hostimageurl) {
+        this.hostimageurl = hostimageurl;
+    }
 }
