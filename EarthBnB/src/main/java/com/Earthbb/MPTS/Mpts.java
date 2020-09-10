@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.persistence.*;
 
 
-@Table(name="main")
+@Table(name="locations")
 
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
@@ -15,10 +15,10 @@ public class Mpts {
     private Long id;
 
     private double rating;
-    private int rating_amount;
+    private int numberofratings;
     private Boolean superhost;
     private double price;
-    private String address;
+    private String street;
     private String city;
     private String state_territory;
     private String country;
@@ -31,13 +31,13 @@ public class Mpts {
     private int bedrooms;
     private int bathrooms;
 
-    public Mpts(Long id, double rating, int rating_amount, Boolean superhost, double price, String address, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms) {
+    public Mpts(Long id, double rating, int numberofratings, Boolean superhost, double price, String street, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms) {
         this.id = id;
         this.rating = rating;
-        this.rating_amount = rating_amount;
+        this.numberofratings = numberofratings;
         this.superhost = superhost;
         this.price = price;
-        this.address = address;
+        this.street = street;
         this.city = city;
         this.state_territory = state_territory;
         this.country = country;
@@ -69,12 +69,12 @@ public class Mpts {
         this.rating = rating;
     }
 
-    public int getRating_amount() {
-        return rating_amount;
+    public int getNumberofratings() {
+        return numberofratings;
     }
 
-    public void setRating_amount(int rating_amount) {
-        this.rating_amount = rating_amount;
+    public void setNumberofratings(int numberofratings) {
+        this.numberofratings = numberofratings;
     }
 
     public Boolean getSuperhost() {
@@ -93,12 +93,12 @@ public class Mpts {
         this.price = price;
     }
 
-    public String getAddress() {
-        return address;
+    public String getStreet() {
+        return street;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setStreet(String street) {
+        this.street = street;
     }
 
     public String getCity() {
