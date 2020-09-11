@@ -14,7 +14,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  1.79,
  165,
@@ -31,7 +32,8 @@ INSERT INTO locations (
  7,
  5,
  1,
- 1
+ 1,
+ "Entire shack"
  );
 INSERT INTO locations (
    rating,
@@ -49,7 +51,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.32,
  324,
@@ -66,7 +69,8 @@ INSERT INTO locations (
  2,
  2,
  2,
- 1
+ 1,
+ "Entire house"
   );
 INSERT INTO locations (
    rating,
@@ -84,7 +88,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  3.33,
  615,
@@ -101,7 +106,8 @@ INSERT INTO locations (
  3,
  3,
  3,
- 3
+ 3,
+ "West wing"
   );
 INSERT INTO locations (
    rating,
@@ -119,7 +125,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.75,
  1358,
@@ -136,7 +143,8 @@ INSERT INTO locations (
  3,
  2,
  2,
- 1
+ 1,
+ "Entire flat"
   );
   INSERT INTO locations (
    rating,
@@ -154,7 +162,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  1.79,
  165,
@@ -171,7 +180,8 @@ INSERT INTO locations (
  8,
  3,
  3,
- 4
+ 4,
+ "Entire village"
   );
   INSERT INTO locations (
    rating,
@@ -189,7 +199,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.20,
  123,
@@ -206,7 +217,8 @@ INSERT INTO locations (
  4,
  3,
  2,
- 2
+ 2,
+ "Entire house"
   );
   INSERT INTO locations (
    rating,
@@ -224,7 +236,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  1.7,
  5321,
@@ -241,7 +254,8 @@ INSERT INTO locations (
  4,
  1,
  1,
- 1
+ 1,
+ "Entire house"
   );
   INSERT INTO locations (
    rating,
@@ -259,7 +273,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.8,
  243,
@@ -276,7 +291,8 @@ INSERT INTO locations (
  1,
  1,
  1,
- 1
+ 1,
+ "The whole porch"
   );
   INSERT INTO locations (
    rating,
@@ -294,7 +310,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  3.4,
  546,
@@ -311,7 +328,8 @@ INSERT INTO locations (
  2,
  1,
  1,
- 1
+ 1,
+ "Entire house"
   );
   INSERT INTO locations (
    rating,
@@ -329,7 +347,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.98,
  1621,
@@ -346,7 +365,8 @@ INSERT INTO locations (
  4,
  2,
  1,
- 1
+ 1,
+ "Entire Apartment"
   );
   INSERT INTO locations (
    rating,
@@ -364,7 +384,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.85,
  2352,
@@ -381,7 +402,8 @@ INSERT INTO locations (
  6,
  2,
  1,
- 1
+ 1,
+ "Entire cabin"
   );
   INSERT INTO locations (
    rating,
@@ -399,7 +421,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.94,
  23,
@@ -416,7 +439,8 @@ INSERT INTO locations (
  2,
  1,
  1,
- 1
+ 1,
+ "Entire house"
   );
   INSERT INTO locations (
    rating,
@@ -434,7 +458,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  2.2,
  77,
@@ -451,7 +476,8 @@ INSERT INTO locations (
  7,
  3,
  2,
- 2
+ 2,
+ "Entire Apartment"
   );
   INSERT INTO locations (
    rating,
@@ -469,7 +495,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  3.9,
  4213,
@@ -486,7 +513,8 @@ INSERT INTO locations (
  8,
  2,
  2,
- 2
+ 2,
+ "Entire house"
   );
   INSERT INTO locations (
    rating,
@@ -504,7 +532,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.4,
  355,
@@ -521,7 +550,8 @@ INSERT INTO locations (
  10,
  6,
  4,
- 3
+ 3,
+ "Entire castle"
   );
   INSERT INTO locations (
    rating,
@@ -539,7 +569,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.9,
  2000,
@@ -556,7 +587,8 @@ INSERT INTO locations (
  8,
  3,
  3,
- 10
+ 10,
+ "Entire House"
   );
   INSERT INTO locations (
    rating,
@@ -574,7 +606,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  3.4,
  200,
@@ -591,7 +624,8 @@ INSERT INTO locations (
  3,
  2,
  2,
- 1
+ 1,
+ "Entire castle"
   );
   INSERT INTO locations (
    rating,
@@ -609,7 +643,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.6,
  376,
@@ -626,7 +661,8 @@ INSERT INTO locations (
  8,
  4,
  4,
- 4
+ 4,
+ "Entire house"
   );
   INSERT INTO locations (
    rating,
@@ -644,7 +680,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  4.99,
  34,
@@ -661,7 +698,8 @@ INSERT INTO locations (
  4,
  2,
  2,
- 1
+ 1,
+ "Entire house"
   );
   INSERT INTO locations (
    rating,
@@ -679,7 +717,8 @@ INSERT INTO locations (
    guests,
    beds,
    bedrooms,
-   bathrooms
+   bathrooms,
+   roomspace
 ) values (
  3.7,
  768,
@@ -696,5 +735,6 @@ INSERT INTO locations (
  12,
  6,
  6,
- 5
+ 5,
+ "Entire Mountain"
   );

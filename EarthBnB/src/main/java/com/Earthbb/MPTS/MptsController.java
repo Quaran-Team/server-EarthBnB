@@ -19,7 +19,7 @@ public class MptsController {
     @GetMapping
     public List<Mpts> list() { return mptsRepository.findAll();}
 
-    @GetMapping("{id}")
+    @GetMapping("/{id}")
     public Mpts get(@PathVariable("id") long id) { return mptsRepository.getOne(id);}
 
     @PostMapping
@@ -48,6 +48,7 @@ public class MptsController {
         mpts.setBeds(mptsDetails.getBeds());
         mpts.setBedrooms(mptsDetails.getBedrooms());
         mpts.setBathrooms(mptsDetails.getBathrooms());
+        mpts.setRoomspace(mptsDetails.getRoomspace());
         final Mpts updated = mptsRepository.save(mpts);
         return ResponseEntity.ok(updated);
     }

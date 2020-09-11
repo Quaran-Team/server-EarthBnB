@@ -20,7 +20,7 @@ public class PhotoController {
     @GetMapping
     public List<PhotoData> list() {return photoRepository.findAll();}
 
-    @GetMapping("{id}")
+    @GetMapping("/{id}")
     public PhotoData get(@PathVariable("id") long id){return photoRepository.getOne(id);}
 
     @PostMapping

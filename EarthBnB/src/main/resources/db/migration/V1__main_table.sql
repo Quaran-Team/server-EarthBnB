@@ -19,5 +19,5 @@ bathrooms int(3),
 primary key(id)
 );
 
-
+alter table locations add column roomspace varchar(100) after bathrooms;
 
