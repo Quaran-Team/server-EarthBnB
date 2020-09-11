@@ -21,9 +21,6 @@ public class HostData {
     private String communication;
     private int responserate;
     private int responsetime;
-
-
-
     private String hostimageurl;
 
     public HostData(Long id, int joindate, boolean idverifided, String biography, String cohosts, String duringstay, String communication, int responserate, int responsetime, String hostimageurl) {
