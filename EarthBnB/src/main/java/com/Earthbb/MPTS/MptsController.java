@@ -49,6 +49,7 @@ public class MptsController {
         mpts.setBedrooms(mptsDetails.getBedrooms());
         mpts.setBathrooms(mptsDetails.getBathrooms());
         mpts.setRoomspace(mptsDetails.getRoomspace());
+        mpts.setFavorite(mptsDetails.getFavorite());
         final Mpts updated = mptsRepository.save(mpts);
         return ResponseEntity.ok(updated);
     }

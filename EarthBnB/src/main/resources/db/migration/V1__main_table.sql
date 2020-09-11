@@ -20,4 +20,5 @@ primary key(id)
 );
 
 alter table locations add column roomspace varchar(100) after bathrooms;
+alter table locations add column favorite boolean after roomspace;
 

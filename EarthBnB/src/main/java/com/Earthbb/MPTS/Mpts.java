@@ -31,8 +31,9 @@ public class Mpts {
     private int bedrooms;
     private int bathrooms;
     private String roomspace;
+    private boolean favorite;
 
-    public Mpts(Long id, double rating, int numberofratings, Boolean superhost, double price, String street, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms,String roomspace) {
+    public Mpts(Long id, double rating, int numberofratings, Boolean superhost, double price, String street, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms,String roomspace, boolean favorite) {
         this.id = id;
         this.rating = rating;
         this.numberofratings = numberofratings;
@@ -51,10 +52,28 @@ public class Mpts {
         this.bedrooms = bedrooms;
         this.bathrooms = bathrooms;
         this.roomspace = roomspace;
+        this.favorite = favorite;
     }
 
     public Mpts() {
     }
+
+    public int getNumberofratings() {
+        return numberofratings;
+    }
+
+    public void setNumberofratings(int numberofratings) {
+        this.numberofratings = numberofratings;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
     public Long getId() {
         return id;
     }
@@ -71,14 +90,6 @@ public class Mpts {
         this.rating = rating;
     }
 
-    public int getNumberofratings() {
-        return numberofratings;
-    }
-
-    public void setNumberofratings(int numberofratings) {
-        this.numberofratings = numberofratings;
-    }
-
     public Boolean getSuperhost() {
         return superhost;
     }
@@ -93,14 +104,6 @@ public class Mpts {
 
     public void setPrice(double price) {
         this.price = price;
-    }
-
-    public String getStreet() {
-        return street;
-    }
-
-    public void setStreet(String street) {
-        this.street = street;
     }
 
     public String getCity() {
@@ -197,5 +200,13 @@ public class Mpts {
 
     public void setRoomspace(String roomspace) {
         this.roomspace = roomspace;
+    }
+
+    public boolean getFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
     }
 }
