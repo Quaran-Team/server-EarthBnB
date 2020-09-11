@@ -18,7 +18,7 @@ public class HostDataController {
     @GetMapping
     public List<HostData> list() { return hostRepository.findAll();}
 
-    @GetMapping("{id}")
+    @GetMapping("/{id}")
     public HostData get(@PathVariable("id") long id) { return hostRepository.getOne(id);}
 
 //    @PostMapping
