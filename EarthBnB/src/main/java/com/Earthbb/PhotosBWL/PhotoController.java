@@ -1,6 +1,5 @@
 package com.Earthbb.PhotosBWL;
 
-import com.Earthbb.MPTS.Mpts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
-@CrossOrigin(origins = { "http://localhost:4200" })
+@CrossOrigin(origins = {"http://localhost:4200"})
 @RestController
 @RequestMapping("/api/v1/photos")
 public class PhotoController {
@@ -18,23 +17,31 @@ public class PhotoController {
     private PhotoRepository photoRepository;
 
     @GetMapping
-    public List<PhotoData> list() {return photoRepository.findAll();}
+    public List<PhotoData> list() {
+        return photoRepository.findAll();
+    }
 
     @GetMapping("{id}")
-    public PhotoData get(@PathVariable("id") long id){return photoRepository.getOne(id);}
+    public PhotoData get(@PathVariable("id") long id) {
+        return photoRepository.getOne(id);
+    }
 
     @PostMapping
     @ResponseStatus(HttpStatus.OK)
-    public void create(@RequestBody PhotoData photoData) { photoRepository.save(photoData);}
+    public void create(@RequestBody PhotoData photoData) {
+        photoRepository.save(photoData);
+    }
 
     @DeleteMapping("/{id}")
-    void delete(@PathVariable Long id) { photoRepository.deleteById(id);}
+    void delete(@PathVariable Long id) {
+        photoRepository.deleteById(id);
+    }
 
 
     @PutMapping("/{id}")
-    public ResponseEntity<PhotoData> update(@PathVariable(value="id") Long id,
+    public ResponseEntity<PhotoData> update(@PathVariable(value = "id") Long id,
                                             @RequestBody PhotoData photoDetails) throws ResourceNotFoundException {
-        PhotoData photoData = photoRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("Sorry, something went wrong with the camera!"));
+        PhotoData photoData = photoRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Sorry, something went wrong with the camera!"));
 
         photoData.setSauce(photoDetails.getSauce());
 
