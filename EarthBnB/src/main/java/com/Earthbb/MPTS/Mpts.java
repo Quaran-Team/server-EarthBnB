@@ -1,6 +1,7 @@
 package com.Earthbb.MPTS;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
@@ -11,7 +12,8 @@ import javax.persistence.*;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Mpts {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GenericGenerator( name = "native", strategy = "native")
     private Long id;
 
     private double rating;
@@ -30,8 +32,10 @@ public class Mpts {
     private int beds;
     private int bedrooms;
     private int bathrooms;
+    private String roomspace;
+    private boolean favorite;
 
-    public Mpts(Long id, double rating, int numberofratings, Boolean superhost, double price, String street, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms) {
+    public Mpts(Long id, double rating, int numberofratings, Boolean superhost, double price, String street, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms,String roomspace, boolean favorite) {
         this.id = id;
         this.rating = rating;
         this.numberofratings = numberofratings;
@@ -49,6 +53,8 @@ public class Mpts {
         this.beds = beds;
         this.bedrooms = bedrooms;
         this.bathrooms = bathrooms;
+        this.roomspace = roomspace;
+        this.favorite = favorite;
     }
 
     public Mpts() {
@@ -190,4 +196,19 @@ public class Mpts {
         this.bathrooms = bathrooms;
     }
 
+    public String getRoomspace() {
+        return roomspace;
+    }
+
+    public void setRoomspace(String roomspace) {
+        this.roomspace = roomspace;
+    }
+
+    public boolean getFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
+    }
 }

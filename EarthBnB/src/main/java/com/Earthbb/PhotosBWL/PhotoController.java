@@ -26,6 +26,7 @@ public class PhotoController {
         return photoRepository.getOne(id);
     }
 
+
     @PostMapping
     @ResponseStatus(HttpStatus.OK)
     public void create(@RequestBody PhotoData photoData) {

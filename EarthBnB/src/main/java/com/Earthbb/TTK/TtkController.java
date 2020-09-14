@@ -19,7 +19,7 @@ public class TtkController {
     @GetMapping
     public List<Ttk> list() { return ttkRepository.findAll();}
 
-    @GetMapping("{id}")
+    @GetMapping("/{id}")
     public Ttk get(@PathVariable("id") long id) { return ttkRepository.getOne(id);}
 
     @PostMapping
