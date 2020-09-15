@@ -4,14 +4,11 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
 
-
-@Table(name="photos")
+@Table(name = "photos")
 
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-
 public class PhotoData {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -33,7 +30,7 @@ public class PhotoData {
     private String pic8url;
     private String pic8alt;
 
-    public void photos(Long id, String sauce, String pic1url, String pic1alt, String pic2url, String pic2alt, String pic3url, String pic3alt, String pic4url, String pic4alt, String pic5url, String pic5alt, String pic6url, String pic6alt, String pic7url, String pic7alt, String pic8url, String pic8alt){
+    public void photos(Long id, String sauce, String pic1url, String pic1alt, String pic2url, String pic2alt, String pic3url, String pic3alt, String pic4url, String pic4alt, String pic5url, String pic5alt, String pic6url, String pic6alt, String pic7url, String pic7alt, String pic8url, String pic8alt) {
         this.id = id;
         this.sauce = sauce;
         this.pic1url = pic1url;
