@@ -19,7 +19,7 @@ public class ReviewsController {
     
     @GetMapping("/location/{locId}")
     public List<Reviews> findAllByLocID(@PathVariable("locId") int locId) {
-        return reviewsRepository.findAllByLocationID(locId);
+        return reviewsRepository.findByLocationReviewed(locId);
     }
 
     @GetMapping("/{id}")
