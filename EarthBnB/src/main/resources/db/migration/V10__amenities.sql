@@ -23,7 +23,7 @@ smokealarm BOOLEAN,
 carbonmonoxidealarm BOOLEAN,
 hottub BOOLEAN,
 spa BOOLEAN,
-outsidepool BOOLEAN,
+swimarea BOOLEAN,
 PRIMARY KEY(id)
 );
 
@@ -51,7 +51,7 @@ smokealarm,
 carbonmonoxidealarm,
 hottub,
 spa,
-outsidepool,
+swimarea,
     ) VALUES (
     TRUE,
     TRUE, 
