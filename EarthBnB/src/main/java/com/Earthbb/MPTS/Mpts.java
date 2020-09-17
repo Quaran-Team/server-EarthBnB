@@ -34,8 +34,10 @@ public class Mpts {
     private int bathrooms;
     private String roomspace;
     private boolean favorite;
+    private double lat;
+    private double lon;
 
-    public Mpts(Long id, double rating, int numberofratings, Boolean superhost, double price, String street, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms,String roomspace, boolean favorite) {
+    public Mpts(Long id, double rating, int numberofratings, Boolean superhost, double price, String street, String city, String state_territory, String country, Boolean international, int zip, String title, String host, int guests, int beds, int bedrooms, int bathrooms,String roomspace, boolean favorite, double lat, double lon) {
         this.id = id;
         this.rating = rating;
         this.numberofratings = numberofratings;
@@ -55,6 +57,8 @@ public class Mpts {
         this.bathrooms = bathrooms;
         this.roomspace = roomspace;
         this.favorite = favorite;
+        this.lat = lat;
+        this.lon = lon;
     }
 
     public Mpts() {
@@ -210,5 +214,21 @@ public class Mpts {
 
     public void setFavorite(boolean favorite) {
         this.favorite = favorite;
+    }
+
+    public double getLat() {
+        return lat;
+    }
+
+    public void setLat(double lat) {
+        this.lat = lat;
+    }
+
+    public double getLon() {
+        return lon;
+    }
+
+    public void setLon(double lon) {
+        this.lon = lon;
     }
 }
