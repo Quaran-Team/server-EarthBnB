@@ -19,14 +19,18 @@ public class Map {
     private String country;
     private Boolean international;
     private int zip;
+    private double lat;
+    private double lon;
 
-    public Map(String street, String city, String state_territory, String country, Boolean international, int zip) {
+    public Map(String street, String city, String state_territory, String country, Boolean international, int zip, double lat, double lon) {
         this.street = street;
         this.city = city;
         this.state_territory = state_territory;
         this.country = country;
         this.international = international;
         this.zip = zip;
+        this.lat = lat;
+        this.lon = lon;
     }
 
     public Map() {
@@ -88,4 +92,19 @@ public class Map {
         this.zip = zip;
     }
 
+    public double getLat() {
+        return lat;
+    }
+
+    public void setLat(double lat) {
+        this.lat = lat;
+    }
+
+    public double getLon() {
+        return lon;
+    }
+
+    public void setLon(double lon) {
+        this.lon = lon;
+    }
 }

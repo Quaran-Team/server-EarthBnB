@@ -39,6 +39,8 @@ public class MapController {
         map.setCountry(mapDetails.getCountry());
         map.setZip(mapDetails.getZip());
         map.setInternational(mapDetails.getInternational());
+        map.setLat(mapDetails.getLat());
+        map.setLon(mapDetails.getLon());
         final Map updated = mapRepository.save(map);
         return ResponseEntity.ok(updated);
     }
