@@ -13,7 +13,14 @@ public class ReviewsController {
     private ReviewsRepository reviewsRepository;
 
     @GetMapping("/")
-    public List<Reviews> getAllItems() { return reviewsRepository.findAll();}
+    public List<Reviews> getAllItems() {
+        return reviewsRepository.findAll();
+    }
+    
+    @GetMapping("/location/{locId}")
+    public List<Reviews> findAllByLocID(@PathVariable("locId") int locId) {
+        return reviewsRepository.findAllByLocationID(locId);
+    }
 
     @GetMapping("/{id}")
     public Reviews getByID(@PathVariable("id") long id) { return reviewsRepository.getOne(id);}
