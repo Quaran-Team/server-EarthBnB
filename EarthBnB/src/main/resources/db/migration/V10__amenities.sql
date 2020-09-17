@@ -51,7 +51,7 @@ smokealarm,
 carbonmonoxidealarm,
 hottub,
 spa,
-swimarea,
+swimarea
     ) VALUES (
     TRUE,
     TRUE, 
@@ -546,7 +546,7 @@ swimarea,
     TRUE,
     TRUE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     FALSE,
@@ -572,7 +572,7 @@ swimarea,
     FALSE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     TRUE,
@@ -598,7 +598,7 @@ swimarea,
     TRUE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     TRUE,
@@ -624,7 +624,7 @@ swimarea,
     FALSE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     FALSE, 
     TRUE,
@@ -650,7 +650,7 @@ swimarea,
     TRUE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     TRUE,
@@ -676,7 +676,7 @@ swimarea,
     TRUE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     TRUE,
@@ -702,7 +702,7 @@ swimarea,
     FALSE,
     TRUE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     FALSE,
@@ -728,7 +728,7 @@ swimarea,
     TRUE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     TRUE,
@@ -754,7 +754,7 @@ swimarea,
     FALSE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     TRUE,
@@ -780,7 +780,7 @@ swimarea,
     TRUE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     TRUE,
@@ -806,7 +806,7 @@ swimarea,
     TRUE,
     FALSE   
     ),
-      (
+    (
     TRUE,
     TRUE, 
     TRUE,
