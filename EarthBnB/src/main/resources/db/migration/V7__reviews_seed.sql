@@ -1349,4 +1349,56 @@ VALUES (
         3.64,
         "January 2020",
         10
+    ),
+    (
+        "Jaylin Ruiz",
+        "Jaylin Ruiz link",
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Aliquam erat volutpat. Nunc auctor. Mauris pretium quam et urna. Fusce nibh. Duis risus. Curabitur sagittis hendrerit ante. Aliquam erat volutpat. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Duis condimentum augue id magna semper rutrum. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Fusce consectetuer risus a nunc. Aliquam ornare wisi eu metus. Integer pellentesque quam vel velit. Duis pulvinar.",
+        4.62,
+        4.13,
+        3.87,
+        3.99,
+        3.25,
+        3.97,
+        "February 2020",
+        20
+    ),
+    (
+        "Demarion Munoz",
+        "Demarion Munoz link",
+        "Stop talking, brain thinking. Hush. Aw, you're all Mr. Grumpy Face today. All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why.",
+        4.26,
+        4.83,
+        4.13,
+        3.59,
+        3.41,
+        4.67,
+        "August 2020",
+        20
+    ),
+    (
+        "Sanaa Bender",
+        "Sanaa Bender link",
+        "Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane. Water spinach arugula pea tatsoi aubergine spring onion bush tomato kale radicchio turnip chicory salsify pea sprouts fava bean. Dandelion zucchini burdock yarrow chickpea dandelion sorrel courgette turnip greens tigernut soybean radish artichoke wattle seed endive groundnut broccoli arugula.",
+        3.96,
+        4.55,
+        4.02,
+        3.1,
+        3.91,
+        3.64,
+        "August 2020",
+        19
+    ),
+    (
+        "Demarion Munoz",
+        "Demarion Munoz link",
+        "Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.",
+        3.1,
+        3.25,
+        4.67,
+        4.57,
+        3.73,
+        3.1,
+        "September 2020",
+        20
     );
