@@ -23,4 +23,6 @@ alter table locations add column roomspace varchar(100) after bathrooms;
 alter table locations add column favorite boolean default false after roomspace;
 alter table locations add column lat long after favorite;
 alter table locations add column lon long after lat;
+alter table locations add column description text after lon;
+
 
