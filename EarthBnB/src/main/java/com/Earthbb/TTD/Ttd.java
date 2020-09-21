@@ -5,7 +5,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
-@Table(name="locations")
+@Table(name="todo")
 
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
