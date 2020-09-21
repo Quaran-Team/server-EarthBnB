@@ -17,7 +17,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  1.79,
  165,
@@ -37,7 +38,9 @@ INSERT INTO locations (
  1,
  "Entire shack",
  28.332600,
- -81.576020
+ -81.576020,
+ "The Shack is approximately 30 to 45 minutes from Disney, Disney Springs, Universal, City Walk, The Orlando Eye and I Drive in Orlando. 20 Miles from Orlando International Airport ( OIA ). Also approx. 15 miles to Old Town in Kissimmee.
+  Enjoy Restaurants including IHOP, Rodeo Diner , Dunkin’ Donuts, Gators Dockside , Duke’s Brewhouse, Chili’s, Outback , Anthony’s Pizza all within Five miles."
  );
 INSERT INTO locations (
    rating,
@@ -58,7 +61,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.32,
  324,
@@ -78,7 +82,8 @@ INSERT INTO locations (
  1,
  "Entire house",
  40.765810,
- -73.983120
+ -73.983120,
+ "Hudson Square, once Manhattan’s printing district, is wedged between Tribeca, Soho, Greenwich Village and the Hudson River, to the south west of the island."
   );
 INSERT INTO locations (
    rating,
@@ -99,7 +104,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  3.33,
  615,
@@ -119,7 +125,8 @@ INSERT INTO locations (
  3,
  "West wing",
  64.757540,
- -147.350960
+ -147.350960,
+ "So what makes us special? We live in the NORTH POLE!!! The street lights are candy canes, and the Santa Claus house is less than five minutes away. There is a Starbucks about four minutes away (if you need a pick me up in the mornings), and lots of cute shops close by."
   );
 INSERT INTO locations (
    rating,
@@ -140,7 +147,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.75,
  1358,
@@ -160,7 +168,8 @@ INSERT INTO locations (
  1,
  "Entire flat",
  36.173650,
- -86.739710
+ -86.739710,
+ "Walkability. The park. Great bars, shops & restaurants. Convenience to everything. There is a brand new community center across the street at Sevier Park which is a great option for a workout ($3 for guests). Multiple privately owned yoga studios or gyms within walking distance. The 12th South Farmers Market is only 50 feet from your front porch every Tuesday afternoon from 3:30-6:30."
   );
   INSERT INTO locations (
    rating,
@@ -181,7 +190,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  1.79,
  165,
@@ -201,7 +211,8 @@ INSERT INTO locations (
  4,
  "Entire village",
  43.586590,
- -110.831190
+ -110.831190,
+ "Teton Village is the town at the base of Jackson Hole Mountain Resort! The village ranges from older condo's built in the original development to five diamond hotels and five star restaurants. There is shopping, recreation, and opportunities to relax around every corner!"
   );
   INSERT INTO locations (
    rating,
@@ -222,7 +233,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.20,
  123,
@@ -242,7 +254,8 @@ INSERT INTO locations (
  2,
  "Entire house",
  33.981884,
- -118.459266
+ -118.459266,
+ "This spectacular new home is in the heart of Venice, now commonly referred to as Silicon Beach. Around 5 minutes from the canals, it's only a little further to the beach. Visit exclusive eateries in nearby Abbot Kinney."
   );
   INSERT INTO locations (
    rating,
@@ -263,7 +276,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  1.7,
  5321,
@@ -283,7 +297,8 @@ INSERT INTO locations (
  1,
  "Entire house",
  33.98098,
- -118.45976
+ -118.45976,
+ "The neighborhood is very safe and quiet. There's a local juice shop on the property where you can get free coffee every morning as well as smoothies, juices and açaí bowls. We are right down the street from the Cheesecake factory and right by all the local restaurants such as Japanese Food, American food and Italian Food."
   );
   INSERT INTO locations (
    rating,
@@ -304,7 +319,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.8,
  243,
@@ -324,7 +340,8 @@ INSERT INTO locations (
  1,
  "The whole porch",
  34.04371,
- -118.5531
+ -118.5531,
+ "The guest house is located in the desirable Montana Avenue district of Santa Monica, just 2 blocks away from boutique shopping and a multitude of trendy, family-friendly, and vegan/vegetarian restaurants. The property is located about 1.5 miles from the beach, accessible by walking or public transportation. Bike and scooter rentals are located just across the street. Free street parking is readily available with a parking hang tag/permit, which will be provided."
   );
   INSERT INTO locations (
    rating,
@@ -345,7 +362,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  3.4,
  546,
@@ -365,7 +383,8 @@ INSERT INTO locations (
  1,
  "Entire house",
 35.62724,
--82.56588
+-82.56588,
+"West Asheville has the most distinct identity of all Asheville neighborhoods. It feels like a village, yet is just across the river from all the downtown amenities. Haywood Road has so many brunch spots, cafes and breweries that we've stopped counting -- and just downhill are the riverside parks with miles-long bike paths running along the river."
   );
   INSERT INTO locations (
    rating,
@@ -386,7 +405,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.98,
  1621,
@@ -406,7 +426,8 @@ INSERT INTO locations (
  1,
  "Entire Apartment",
 33.7862,
--84.40173
+-84.40173,
+"Be settled in the heart of midtown and a few steps away from the famous piedmont park. Enjoy over 30 local restaurants by foot within 5 mins or less, 20 different bars and night clubs located on the renowned crescent ave, 10th st and piedmont are within a short walk of 5 minutes or less. Whole foods market is less than a 5-minute walk also."
   );
   INSERT INTO locations (
    rating,
@@ -427,7 +448,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.85,
  2352,
@@ -447,7 +469,8 @@ INSERT INTO locations (
  1,
  "Entire cabin",
  61.5807,
- -149.43072
+ -149.43072,
+ "The view of the lake can't be beat. Million dollar view is what some guests have said. The house is tucked away at the end of a long driveway that is shared by two other homes. A few of the neighbors are visible from the house--all homes that were originally on the family property. The grocery store, post office and a few restaurants are less than a mile away. The are is central to many top attractions in the Mat-Su Valley."
   );
   INSERT INTO locations (
    rating,
@@ -468,7 +491,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.94,
  23,
@@ -488,7 +512,8 @@ INSERT INTO locations (
  1,
  "Entire house",
  39.21053,
- -94.64223
+ -94.64223,
+ "The eclectic mix of grand homes in this historic Hyde Park neighborhood has an energized spirit that conveniently brings guests to the pulse of the City's heartbeat. Travel under 2 miles to most of Kansas City's key points of interest including the Nelson Atkins Museum, Royals and Chiefs sports arenas, historic outdoor Plaza shopping and the vibrant Power and Light District in downtown Kansas City."
   );
   INSERT INTO locations (
    rating,
@@ -509,7 +534,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  2.2,
  77,
@@ -529,7 +555,8 @@ INSERT INTO locations (
  2,
  "Entire Apartment",
  34.08162,
- -84.5541
+ -84.5541,
+ "Quiet neighborhood near Lake Allatoona"
   );
   INSERT INTO locations (
    rating,
@@ -550,7 +577,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  3.9,
  4213,
@@ -570,7 +598,8 @@ INSERT INTO locations (
  2,
  "Entire house",
  33.77169,
- -84.40838
+ -84.40838,
+ "For those looking to bury their head in the nest to just relax around the coop -or- those wanting to be loose as a goose and fly the coop to maybe shake a tail feather, this area is for you!"
   );
   INSERT INTO locations (
    rating,
@@ -591,7 +620,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.4,
  355,
@@ -611,7 +641,8 @@ INSERT INTO locations (
  3,
  "Entire castle",
  34.50535,
- -84.72206
+ -84.72206,
+ "Grill and firewood provided."
   );
   INSERT INTO locations (
    rating,
@@ -632,7 +663,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.9,
  2000,
@@ -652,7 +684,8 @@ INSERT INTO locations (
  10,
  "Entire House",
  29.75267,
- -95.45992
+ -95.45992,
+ "Hottest zip in Houston. Walkability, convenience and luxury, some of finest restaurants, shops, museums and bars you'll find. Close to Montrose (but not in it, so our area is a bit safer) You can walk to Trader Joe or Whole Foods in 15 min. Centrally located not far from Rice U, Med center, Galleria, downtown, museums and major freeways."
   );
   INSERT INTO locations (
    rating,
@@ -673,7 +706,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  3.4,
  200,
@@ -693,7 +727,8 @@ INSERT INTO locations (
  1,
  "Entire castle",
  33.99136,
- -118.44602
+ -118.44602,
+ "Catch rays in the pool or walk to many of the surrounding shops and outlets."
   );
   INSERT INTO locations (
    rating,
@@ -714,7 +749,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.6,
  376,
@@ -734,7 +770,8 @@ INSERT INTO locations (
  4,
  "Entire house",
  44.22732,
- -72.5522
+ -72.5522,
+ "We are located in a rare labdscape in Vermont , a wide open space with long mountain views."
   );
   INSERT INTO locations (
    rating,
@@ -755,7 +792,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  4.99,
  34,
@@ -775,7 +813,8 @@ INSERT INTO locations (
  1,
  "Entire house",
  39.67846,
- -104.91536
+ -104.91536,
+ "Snuggle up by the fire in the winter and the pool in the summer. There's always interesting events and places to visit in Denver!"
   );
   INSERT INTO locations (
    rating,
@@ -796,7 +835,8 @@ INSERT INTO locations (
    bathrooms,
    roomspace,
    lat,
-   lon
+   lon,
+   description
 ) values (
  3.7,
  768,
@@ -816,5 +856,6 @@ INSERT INTO locations (
  5,
  "Entire Mountain",
  44.06141,
- -103.23109
+ -103.23109,
+ "Located mintes from Mount Rushmore, we are the perfect locatio nfor your family road trip. There are plenty of kid-freindly activities in the area as well as adult nightlife and a variety of food options."
   );
