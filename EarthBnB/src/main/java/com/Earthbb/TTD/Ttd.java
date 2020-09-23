@@ -5,14 +5,14 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
-@Table(name="todo")
+@Table(name = "todo")
 
 @Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Ttd {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
-    @GenericGenerator( name = "native", strategy = "native")
+    @GenericGenerator(name = "native", strategy = "native")
     private Long id;
 
     private String img;
@@ -23,8 +23,9 @@ public class Ttd {
     private Integer price;
     private String location;
     private Boolean favorite;
+    private String info;
 
-    public Ttd(Long id, String img, Double rating, Integer reviews, String title, String category, Integer price, String location, Boolean favorite) {
+    public Ttd(Long id, String img, Double rating, Integer reviews, String title, String category, Integer price, String location, Boolean favorite, String info) {
         this.id = id;
         this.img = img;
         this.rating = rating;
@@ -34,9 +35,18 @@ public class Ttd {
         this.price = price;
         this.location = location;
         this.favorite = favorite;
+        this.info = info;
     }
 
     public Ttd() {
+    }
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
     }
 
     public Long getId() {
