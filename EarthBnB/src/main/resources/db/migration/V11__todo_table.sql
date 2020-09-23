@@ -8,6 +8,6 @@ category varchar(100),
 price decimal,
 location varchar(20),
 favorite boolean default false,
-info varchar(500),
+info varchar(800),
 primary key(id)
 );

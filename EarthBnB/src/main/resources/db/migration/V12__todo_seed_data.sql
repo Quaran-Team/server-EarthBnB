@@ -587,7 +587,7 @@ insert into todo (
     0,
     "TX",
     FALSE,
-    "The last surviving facility of its kind in the US, these historic stockyards have been transformed into a splendid attraction including rodeos, concerts, theatrical performances, and western-themed shopping. Highlights include cattle driving demonstrations and a chance to saddle up for some trail riding. Be sure to check out the Stockyards Visitor Center and the Stockyards Museum, regarding current events as well as the history of this fun area of Fort Worth."
+    "The last surviving facility of its kind in the US, these historic stockyards have been transformed into a splendid attraction including rodeos, concerts, theatrical performances, and western-themed shopping. Highlights include cattle driving demonstrations and a chance to saddle up for some trail riding. Be sure to check out the Stockyards Visitor Center and the Stockyards Museum."
     ),(
     "https://cdn.pixabay.com/photo/2015/05/06/04/45/cadillac-ranch-754878__480.jpg",
     4.1,
@@ -717,7 +717,7 @@ insert into todo (
     14,
     "NC",
     TRUE,
-    "Commissioned on April 9, 1941. The vessel is well armed: there are nine 16-inch, 45-caliber guns in three turrets, and 20 five-inch, 38-caliber guns in ten twin mounts. She was the world's greatest sea weapon, but today tourists can wander through the ship to visit the mess hall, tour the sailor's and officer's quarters, and wander the expansive deck to see the intimidating guns up-close and personal."
+    "Commissioned on April 9, 1941. The vessel is well armed: there are nine 16-inch, 45-caliber guns in three turrets, and 20 five-inch, 38-caliber guns in ten twin mounts. She was the world's greatest sea weapon, but today tourists can wander through the ship to visit the mess hall, tour the sailor's and officer's quarters."
     ),(
     "https://cdn.pixabay.com/photo/2016/07/28/16/55/dolphin-1548448__480.jpg",
     3.7,
@@ -737,7 +737,7 @@ insert into todo (
     22,
     "NC",
     TRUE,
-    "Hiking at Grandfather Mountain in Linville ranges from leisurely trails with picturesque views to challenging treks that could include ladders and reward with expansive, mountainous panoramas. Visitors can also learn about local flora or catch a glimpse of wildlife. Plan a walk across the park's well-known Mile High Swinging Bridge, a highlight that has been in place since 1952 and offers 360-degree views."
+    "Hiking at Grandfather Mountain in Linville ranges from leisurely trails with picturesque views to challenging treks that could include ladders and reward with expansive, mountainous panoramas. Visitors can also learn about local flora or catch a glimpse of wildlife. Plan a walk across the park's well-known Mile High Swinging Bridge."
     ),(
     "https://cdn.pixabay.com/photo/2014/09/19/10/02/disneyland-park-452001__480.jpg",
     4.2,
@@ -797,7 +797,7 @@ insert into todo (
     109,
     "CA",
     FALSE,
-    "Harry Potter, Fast and Furious, The Walking Dead .... This amusement park and movie studio is one of the most popular attractions in California, and the perfect place for families with older children and teens. Rides and sets are based on famous movies, with everything from shockingly realistic simulator rides to roller coasters, and much more."
+    "Harry Potter, Fast and Furious, The Walking Dead .... This amusement park and movie studio is one of the most popular attractions in California, and the perfect place for families with older children and teens. Rides and sets are based on famous movies."
     ),(
     "https://cdn.pixabay.com/photo/2014/11/09/00/51/orca-523067__480.jpg",
     2.2,
@@ -807,7 +807,7 @@ insert into todo (
     49.99,
     "CA",
     FALSE,
-    "This theme park is a classic family destination, drawing people from all over the Western United States. Orca and dolphin shows, opportunities for close up encounters with some favorite marine life, and thrill rides are the main attractions. San Diego's SeaWorld is strategically located along the waterfront in Mission Bay."
+    "This theme park is a classic family destination, drawing people from all over the Western United States. Orca and dolphin shows, opportunities for close up encounters with some favorite marine life, and thrill rides are the main attractions. "
     ),(
     "https://cdn.pixabay.com/photo/2015/11/14/13/14/hearst-castle-1043138__480.jpg",
     3.8,
@@ -817,7 +817,7 @@ insert into todo (
     36,
     "CA",
     FALSE,
-    "Hearst Castle, officially known as the Hearst San Simeon State Historical Monument, was started in 1919 and built over a 28-year period, resulting in a mix of architectural styles that make it quirky and stately all at the same time. Built by newspaper baron William Randolph Hearst, the 165-room castle sits atop a hill"
+    "Hearst Castle, officially known as the Hearst San Simeon State Historical Monument, was started in 1919 and built over a 28-year period, resulting in a mix of architectural styles that make it quirky and stately all at the same time. "
     ),(
     "https://cdn.pixabay.com/photo/2014/01/07/20/30/hollywood-240179__480.jpg",
     4.5,
@@ -827,7 +827,7 @@ insert into todo (
     124,
     "CA",
     FALSE,
-    "Orbic Air offers the best helicopter rides, tours and charters in Los Angeles. Starting at only $124 you won't get a better view of the Hollywood Sign. If you want to see the amazing So Cal Beaches of Santa Monica, Venice, Pacific Palisades, and Malibu, come join us for a helicopter tour like no other. "
+    "Orbic Air offers the best helicopter rides, tours and charters in Los Angeles. Starting at only $124 you won't get a better view of the Hollywood Sign.  "
     ),(
     "https://cdn.pixabay.com/photo/2016/02/27/19/00/cyprus-1226082__480.jpg",
     4.1,
@@ -837,7 +837,7 @@ insert into todo (
     60,
     "CA",
     False,
-    "The Fun Zone Boat Company was the first company offering live narrated historical, sightseeing tours of Newport Bay, viewing celebrity homes and yachts, individual and school group sea mammal tours, whale watching, Newport Beach boat parade and other excursions since 1948.  We feature Sea Lion Tours, offering our guests a chance to view SEA LIONS in their natural environment as well as a very informative narrated tours of Newport Bay featuring the ‘homes of the rich and famous’."
+    "The Fun Zone Boat Company was the first company offering live narrated historical, sightseeing tours of Newport Bay, viewing celebrity homes and yachts."
     ),(
     "https://cdn.pixabay.com/photo/2018/01/16/19/17/food-3086642__480.jpg",
     2.1,
@@ -867,7 +867,7 @@ insert into todo (
     39,
     "CA",
     FALSE,
-    "For a decade, Access Hollywood Tours has been touring Hollywood and Beverly Hills landmarks and locales. Our experience in the tourist industry has been a steady growth bringing enjoyment to many traveling tourist and locals throughout the years. We take pride in our friendly and knowledgeable tour guides, who provide the most comprehensive and entertaining tour throughout Los Angeles."
+    "For a decade, Access Hollywood Tours has been touring Hollywood and Beverly Hills landmarks and locales. Our experience in the tourist industry has been a steady growth bringing enjoyment to many traveling tourist and locals throughout the years. "
     ),(
     "https://cdn.pixabay.com/photo/2014/10/24/03/14/woman-500703__480.jpg",
     2.5,
@@ -967,7 +967,7 @@ insert into todo (
     24.95,
     "GA",
     FALSE,
-    "Callaway Gardens is a 6,500-acre resort complex located in Pine Mountain, Georgia, just outside LaGrange, Georgia. The destination draws over 750,000 visitors annually. Founded in 1952 by Cason J. and Virginia Hand Callaway to promote and protect native azalea species. Today, Callaway Gardens features a wide variety of recreational attractions including a large enclosed butterfly habitat"
+    "Callaway Gardens is a 6,500-acre resort complex located in Pine Mountain, Georgia, just outside LaGrange, Georgia. The destination draws over 750,000 visitors annually. Founded in 1952 by Cason J. and Virginia Hand Callaway to promote and protect native azalea species. "
     ),(
     "https://cdn.pixabay.com/photo/2014/04/05/11/32/alligator-316252__480.jpg",
     3.3,
@@ -977,7 +977,7 @@ insert into todo (
     24,
     "GA",
     FALSE,
-    "Tour routes may vary with water levels, weather, and wildlife activity. Every tour is different as each guide brings his or her own perspective to your swamp experience. Our staff includes well-known authorities on alligator biology, wetland ecology, and Okefenokee cultural history. Most of our guides have family roots in the Okefenokee, they were born and raised here, and several have been leading swamp trips for 35 years or more."
+    "Tour routes may vary with water levels, weather, and wildlife activity. Every tour is different as each guide brings his or her own perspective to your swamp experience."
     ),(
     "https://cdn.pixabay.com/photo/2012/10/25/23/54/carter-62899__480.jpg",
     4.3,
@@ -987,7 +987,7 @@ insert into todo (
     0,
     "GA",
     TRUE,
-    "The Jimmy Carter National Historic Site in Plains, in southwest Georgia, includes the Carter family home and former President Carter's boyhood home and farm. The site also includes the Plains Train Depot and Plains High School. Visitors can get a glimpse of this president's upbringing and social influences that may have shaped his ideas."
+    "The Jimmy Carter National Historic Site in Plains, in southwest Georgia, includes the Carter family home and former President Carter's boyhood home and farm."
     ),(
     "https://cdn.pixabay.com/photo/2016/07/28/16/10/anna-ruby-falls-1548325__480.jpg",
     4.8,
@@ -997,7 +997,7 @@ insert into todo (
     5,
     "GA",
     TRUE,
-    "The spectacular Anna Ruby Falls (twin waterfalls) lies in the heart of the Chattahoochee National Forest. The quiet coolness of the area is broken only by the thundering rush of water flowing over the rugged cliff face. Anna Ruby Falls marks the junction of Curtis and York Creeks."
+    "The spectacular Anna Ruby Falls (twin waterfalls) lies in the heart of the Chattahoochee National Forest. The quiet coolness of the area is broken only by the thundering rush of water flowing over the rugged cliff face. "
     ),(
     "https://cdn.pixabay.com/photo/2016/08/05/00/34/deep-sea-fishing-1571310__480.png",
     3.3,
@@ -1007,7 +1007,7 @@ insert into todo (
     500,
     "GA",
     FALSE,
-    "Jekyll Fishing provides shallow water fishing and Inshore/Near Shore trips. Focused and professional on and off the water. Whether you are a novice or expert, we provide everyone the opportunity to catch fish. Jekyll Island and the Golden Isles has some of the finest Redfish Sight Fishing in Coastal Georgia.  "
+    "Jekyll Fishing provides shallow water fishing and Inshore/Near Shore trips. Focused and professional on and off the water. Whether you are a novice or expert, we provide everyone the opportunity to catch fish. "
     ),(
     "https://cdn.pixabay.com/photo/2017/08/06/09/29/people-2590655__480.jpg",
     3.5,
