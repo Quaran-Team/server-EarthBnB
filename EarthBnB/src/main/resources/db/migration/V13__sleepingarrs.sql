@@ -125,6 +125,13 @@ category
        "q1"
        ),
        (
+       "Bedroom 1",
+       1,
+       "Queen bed",
+       9,
+       "q1"
+       ),
+       (
        "Porch",
        0,
        "none",
