@@ -96,4 +96,22 @@ public class Amenities {
 
     @Column(name = "swimarea")
     private Boolean swimArea;
+
+    @Column(name = "grill")
+    private Boolean grill;
+
+    @Column(name = "fireextinguisher")
+    private Boolean fireextinguisher;
+
+    @Column(name = "essentialstext")
+    private String essentialstext;
+
+    @Column(name = "heatingtext")
+    private String heatingtext;
+
+    @Column(name = "cookingtext")
+    private String cookingtext;
+
+    @Column(name = "parkingtext")
+    private String parkingtext;
 }
