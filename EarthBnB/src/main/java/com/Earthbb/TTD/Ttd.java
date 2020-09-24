@@ -20,12 +20,12 @@ public class Ttd {
     private Integer reviews;
     private String title;
     private String category;
-    private Integer price;
+    private Double price;
     private String location;
     private Boolean favorite;
     private String info;
 
-    public Ttd(Long id, String img, Double rating, Integer reviews, String title, String category, Integer price, String location, Boolean favorite, String info) {
+    public Ttd(Long id, String img, Double rating, Integer reviews, String title, String category, Double price, String location, Boolean favorite, String info) {
         this.id = id;
         this.img = img;
         this.rating = rating;
@@ -36,6 +36,14 @@ public class Ttd {
         this.location = location;
         this.favorite = favorite;
         this.info = info;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
     }
 
     public Ttd() {
@@ -97,13 +105,7 @@ public class Ttd {
         this.category = category;
     }
 
-    public Integer getPrice() {
-        return price;
-    }
 
-    public void setPrice(Integer price) {
-        this.price = price;
-    }
 
     public Boolean getFavorite() {
         return favorite;

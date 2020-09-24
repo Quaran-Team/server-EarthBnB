@@ -29,7 +29,7 @@ insert into todo (
      TRUE,
      "Learn glass blowing the ancient art from the master Clifton Brothers. Make your own art!"
   ), (
-       "https://cdn.pixabay.com/photo/2020/02/01/16/40/mermaid-4810712_1280.jpg",
+       "https://cdn.pixabay.com/photo/2017/09/26/11/17/mermaid-2788353__480.png",
        4.2,
        34,
        "Weeki Wachee Mermaid Show",
@@ -49,7 +49,7 @@ insert into todo (
      FALSE,
     "Some say it is the happiest place on earth. Large mice and dogs everywhere."
     ),(
-    "https://cdn.pixabay.com/photo/2013/10/29/14/32/aligator-202383__480.jpg",
+    "https://cdn.pixabay.com/photo/2015/06/08/15/02/rollercoaster-801833__480.jpg",
     3.7,
     734254,
     "Busch Gardens",
@@ -59,7 +59,7 @@ insert into todo (
      TRUE,
     "An amazing amusement park full of thrill rides, hot shows, and cool treats."
     ),(
-    "https://cdn.pixabay.com/photo/2019/08/18/13/03/shield-4414120__480.jpg",
+    "https://cdn.pixabay.com/photo/2013/10/29/14/32/aligator-202383__480.jpg",
     4.2,
     73892,
     "Everglades National Park",
@@ -289,7 +289,7 @@ insert into todo (
         TRUE,
     "Named after country singer Dolly Parton, Dollywood has long been Tennessee's most popular ticketed attraction, luring more than three million visitors per year. Located in the small town of Pigeon Forge, this always busy theme park provides family fun with its mix of folksy Smoky Mountains traditions and crafts, thrilling rides, and entertainment. All told, the site boasts more than 40 rides."
     ),(
-    "https://cdn.pixabay.com/photo/2017/02/05/18/04/scientific-2040795__480.jpg",
+    "https://cdn.pixabay.com/photo/2013/05/16/09/05/mathematics-111423__480.jpg",
     3.7,
     10101,
     "The American Museum of Science and Energy in Oak Ridge",
@@ -609,7 +609,7 @@ insert into todo (
     FALSE,
     "Visitors can take an elevator up to a viewing platform at the top, which reaches 630 feet, for stunning views out over the city. The arch is in Jefferson National Expansion Memorial Park but can be seen from all over the city and even from great distances on the surrounding highways. Other ways to enjoy the arch are helicopter tours, riverboat cruises, and visiting the Old Courthouse for some historical perspective on the area."
     ),(
-    "https://cdn.pixabay.com/photo/2019/12/21/11/09/musician-4710264__480.jpg",
+    "https://cdn.pixabay.com/photo/2020/01/17/05/37/guitar-4772276__480.jpg",
     3.8,
     4846,
     "Branson",
@@ -1028,4 +1028,305 @@ insert into todo (
     "GA",
     FALSE,
     "The College Football Hall of Fame is a hall of fame and interactive attraction devoted to college football. The National Football Foundation founded the Hall in 1951 to immortalize the players and coaches of college football."
+    ),(
+    "https://cdn.pixabay.com/photo/2015/10/07/23/54/lamp-976987__480.jpg",
+    4.1,
+    24,
+    "Adams House Museum",
+    "Museum",
+    12.99,
+    "SD",
+    FALSE,
+    "The Historic Adams House, a fully restored Queen-Anne style mansion, recounts the tragedies and triumphs of two of Deadwood's founding families. The stained glass windows, modern 19th century indoor plumbing and electricity, telephone service, and original furnishings chronicle Deadwood’s transition from a raucous mining camp into a prosperous and technologically rich city. "
+    ),(
+    "https://cdn.pixabay.com/photo/2013/11/19/18/24/auto-213396__480.jpg",
+    3.1,
+    23,
+    "Pioneer Auto Museum",
+    "Museum",
+    14.59,
+    "SD",
+    FALSE,
+    "Our tour includes viewing hundreds of rare and antique cars, motorcycles and tractors, as well as an authentic Prairie Town that transports visitors back to the 1900's. Pioneer Auto Show has been featured on American Pickers, and is a must-stop destination for those traveling through South Dakota."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/08/09/13/36/old-house-3594537__480.jpg",
+    2.9,
+    38,
+    "Laura Ingles Wilder Historic Homes",
+    "Museum",
+    14.00,
+    "SD",
+    FALSE,
+    "We invite you to visit the historic homes of famous author, Laura Ingalls Wilder. Have a fun filled day visiting the Surveyors’ House from By the Shores of Silver Lake. Attend class in the First School of De Smet and more."
+    ),(
+    "https://cdn.pixabay.com/photo/2017/07/12/18/26/fairytale-2497759__480.jpg",
+    3.3,
+    72,
+    "Storybook Island",
+    "Theme Park",
+    0.0,
+    "SD",
+    FALSE,
+    "We are a non profit childrens park. 8 1/2 acres of outdoor fun! We have a train, carousel and Bippity Boppity Bounce, the cost is $2 per person for each of these. We have concessions on site as well as a gift shop."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/10/20/17/46/austin-texas-1756159__480.jpg",
+    4.1,
+    32,
+    "Best of Austin small-group tour",
+    "Tour",
+    38.86,
+    "TX",
+    FALSE,
+    "Save yourself the stress of planning rides around Austin with this guided tour that includes round-trip transportation from Austin Visitor Center. Your guide shows you the highlights of the city by taking you to popular attractions, lesser-known hangouts, and even a dessert truck, while telling you about Austin's history and culture. "
+    ),(
+    "https://cdn.pixabay.com/photo/2015/04/02/22/48/dolphin-704453__480.jpg",
+    4.4,
+    337,
+    "Eco and Dolphin Tour South Padre",
+    "Tour",
+    13,
+    "TX",
+    FALSE,
+    "Share the waters with the world’s most playful sea mammal on a family-friendly dolphin watching cruise. During the tour, listen to interesting and informative narration on the diverse marine life that lives within the waters surrounding South Padre Island."
+    ),(
+    "https://cdn.pixabay.com/photo/2015/04/26/14/47/at-t-stadium-740537__480.jpg",
+    3.3,
+    629,
+    "Cowboys Stadium Tour",
+    "Tour Sports",
+    149.74,
+    "TX",
+    FALSE,
+    "Combine two popular Dallas tours for a day of sightseeing that covers the city and the Dallas Cowboys Stadium. The small-group tour starts with an overview of city landmarks such as Pioneer Plaza, the JFK Memorial, and the Old Red Courthouse, then continues with a guided tour of the Dallas Cowboys stadium. "
+    ),(
+    "https://cdn.pixabay.com/photo/2016/12/14/13/30/miami-1906379__480.jpg",
+    3.7,
+    48,
+    "Miami Boat Tour",
+    "Tour",
+    40.34,
+    "FL",
+    FALSE,
+    "Thrill seekers that want to experience the Miami coastline should look no further than this speedboat adventure—the only speedboat sightseeing tour that takes you offshore for a blistering ride. Just hop aboard, and get ready to feel the wind whipping your face as you zoom through the surf."
+    ),(
+    "https://cdn.pixabay.com/photo/2015/09/22/19/00/ship-952292__480.jpg",
+    2.9,
+    13,
+    "Key West Sail-Boat Tour",
+    "Tour",
+    63.00,
+    "FL",
+    FALSE,
+    "Watch sunset over Key West—without the crowds—on this catamaran sailing cruise that includes fresh appetizers, full liquor bar, sparkling wine, and beer. Sailing aboard a 60-foot (21-meter) catamaran means a smoother ride with plenty of deck space, and you’ll see the first stars appear above the ocean as you glide back to Key West after an evening on the water."
+    ),(
+    "https://cdn.pixabay.com/photo/2019/03/15/18/43/cigars-4057685__480.jpg",
+    3.3,
+    1197,
+    "Little Havana Food and Cigar walking tour",
+    "Tour",
+    58.99,
+    "FL",
+    FALSE,
+    "Taste your way through Miami’s Little Havana neighborhood on a food walking tour exploring the vibrant and historic neighborhood. Try everything from Cuban coffee to home-style Cuban cooking, with plenty of tastings for a full lunch. Followed by the best stogies."
+    ),(
+    "https://cdn.pixabay.com/photo/2017/01/15/17/43/former-psychiatric-hospital-1982231__480.jpg",
+    4.3,
+    723,
+    "Glore Psychiatric Museum",
+    "Museum",
+    17.23,
+    "MO",
+    FALSE,
+    "Glore Psychiatric Museum depicts the 130-year history of the State Lunatic Asylum No. 2 and the overall evolution of the treatment of mental illness. The museum is named for George Glore who worked for the Missouri Department of Mental Health for most of his 41-year career."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/06/04/23/48/cave-1436498__480.jpg",
+    3.3,
+    728,
+    "Meramec Caverns",
+    "Tour History Park",
+    22.99,
+    "MO",
+    FALSE,
+    "The 4.6-mile cavern system holds its place in history as a shelter for Pre-Columbian Native Americans, the first cave west of the Mississippi to be explored by Europeans, a saltpeter plant for the Union Army during the Civil War, and a hideout for the notorious outlaw Jesse James."
+    ),(
+    "https://cdn.pixabay.com/photo/2015/12/03/15/19/christmas-1075121__480.jpg",
+    3.7,
+    44,
+    "National Museum of Toys and Miniatures",
+    "Museum",
+    8,
+    "MO",
+    FALSE,
+    "THE NATIONAL MUSEUM OF TOYS and Miniatures features the world’s largest collection of fine-scale miniatures and one of the largest collections of antique toys."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/11/23/00/31/bloom-1851462__480.jpg",
+    4.1,
+    256,
+    "Fern Botannica Flower Arranging class",
+    "Museum",
+    78.37,
+    "NY",
+    FALSE,
+    "Fern Botanica is offering a 'Crown Queen' floral crown class or 'Floral Basics and Beyond' ...  It is a local, woman-owned shop and florist with a mind for sustainability and eco-friendly products. Plus, you get to create a masterpiece with some incredibly beautiful flowers and plants!  "
+    ),(
+    "https://cdn.pixabay.com/photo/2018/11/29/00/19/bronx-3844821__480.jpg",
+    3.5,
+    389,
+    "Bronx Zoo",
+    "Zoo",
+    39.95,
+    "NY",
+    FALSE,
+    "The Bronx Zoo is a zoo located within Bronx Park in the Bronx, New York. It is one of the largest zoos in the United States by area, and is the largest metropolitan zoo in the United States by area, comprising 265 acres of park lands and naturalistic habitats separated by the Bronx River. "
+    ),(
+    "https://cdn.pixabay.com/photo/2019/09/01/07/10/carriage-4444477__480.jpg",
+    4.6,
+    922,
+    "Central Park Carriage Rides",
+    "Tour",
+    59.00,
+    "NY",
+    FALSE,
+    "I can personally guarantee that our family-owned & operated company offers the best Central Park horse carriage ride experience in New York City. I grew up in New York and I take great pride in sharing the history of Central Park, pointing out landmarks and the amazing Manhattan skyline. I can also guarantee that all of our customers are treated with respect, sincerity, professionalism, and leave with a smile and great memories!"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/16/02/26/coney-island-2233845__480.jpg",
+    3.1,
+    589,
+    "Coney Island Beach",
+    "Parks",
+    0.0,
+    "NY",
+    TRUE,
+    "Iconic Coney Island is bursting with activity throughout the summer and even during the off-season. Walk along the famous boardwalk, ride on amusement rides, enjoy swimming or sunbathing on its nearly three miles of sandy beaches, or check out the courts for beach volleyball, handball, and basketball."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/01/19/17/18/fairground-1149626__480.jpg",
+    4.1,
+    38,
+    "Seabreeze Amusement Park",
+    "Theme Park",
+    28.99,
+    "NY",
+    FALSE,
+    "Home to more than 70 attractions, this amusement and water park promises the 'ultimate family fun experience.' Enjoys views of Lake Ontario as you explore the rides and classic fair food."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/11/21/15/08/computer-1845880__480.jpg",
+    2.9,
+    294,
+    "Strong National Museum of Play",
+    "Museum",
+    16,
+    "NY",
+    FALSE,
+    "The Strong is home to the National Toy Hall of Fame, the World Video Game Hall of Fame and the International Center for the History of Electronic Games. The museum’s mission is to examine and educate about why play is important to human development. Collections are related to video and electronic games, toys, dolls and more."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/27/18/47/beers-1283566__480.jpg",
+    4.1,
+    21,
+    "Sip of Burlington Brew Tour",
+    "Tour",
+    90,
+    "VT",
+    FALSE,
+    "Vermont has a long beer-making history and this tour offers a comprehensive introduction to Burlington’s growing craft beer scene. Visit four different craft beer breweries or brew pubs around Burlington, learn more about the art of beer-making as you meet the brewery owners, and sample a variety of regional beers. Finally, sit down to enjoy a delicious beer-tasting lunch or dinner."
+    ),(
+    "https://cdn.pixabay.com/photo/2019/02/27/10/54/montpelier-4023804__480.jpg",
+    3.6,
+    73,
+    "Montpelier Scavenger Hunt",
+    "Tour",
+    12.31,
+    "VT",
+    FALSE,
+    "Let’s Roam is the #1 app-led scavenger hunt company. Walk to all the best landmarks and hidden gems, answering trivia questions and solving challenges. Work with your team or compete against them, as you learn new facts and create memorable experiences. Let’s Roam Scavenger Hunts are great as an everyday activity, or for bachelorette parties, birthday parties, corporate team building events and more! "
+    ),(
+    "https://cdn.pixabay.com/photo/2019/06/06/19/13/corn-maze-4256692__480.jpg",
+    2.8,
+    44,
+    "Great Vermont Corn Maze",
+    "Parks",
+    30,
+    "VT",
+    FALSE,
+    "Largest Maze in New England. In 2020 advance reservations required due to pandemic. All reservations made on website. See website for updates and changes due to pandemic. Opens August 1st. 7 days a week, weather permitting. BEST time for mazing is mid-August to mid-September when corn is at it's best. "
+    ),(
+    "https://cdn.pixabay.com/photo/2016/10/30/23/57/skeleton-1784621__480.jpg",
+    4.1,
+    385,
+    "Kennicott Ghost Town Tour",
+    "Tour",
+    47.50,
+    "AK",
+    FALSE,
+    "THE TOWN KENNICOTT IN ALASKA was once flourishing, full of workers who came to the town in search of wealth and work in the mines. There were businesses, shops, a train connection, and a lot of life. Then in 1938 the town was abruptly abandoned by its citizens, leaving most of their possessions behind. Since the middle of the 1950s the place has been completely deserted."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/03/23/14/57/jeep-3253916__480.jpg",
+    4.2,
+    15,
+    "Smokey Mountains Jeep Tour",
+    "Tour MotorSports",
+    67.25,
+    "TN",
+    FALSE,
+    "Travel through the town of Gatlinburg and into the western edges of the Great Smoky Mountain National Park. Once you leave Gatlinburg, you enter a heavily forested area and the road narrows to a single lane through this mountainous area.
+"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/02/18/23/14/people-2078486__480.jpg",
+    3.7,
+    73,
+    "Dave Hansen Scenic River Trips",
+    "Tour Park",
+    89.24,
+    "WY",
+    FALSE,
+    "Embark on a thrilling adventure on this 8-mile whitewater rafting tour. This standard raft is a great option for large families as it offers a more stable experience. Paddle over class II and III rapids, and under a waterfall on your journey. Enjoy views of limestone cliffs, and mountain peaks in the Grey’s National Forest as you float."
+    ),(
+    "https://theknow.denverpost.com/wp-content/uploads/2018/12/BZ28CASABONITA1HC_5116.jpg",
+    3.4,
+    77,
+    "Casa-Bonita Resturant",
+    "Theme Park",
+    10,
+    "CO",
+    FALSE,
+    "Mex eats & pageantry such as cliff divers plunging into a pool below a 30-ft. waterfall, a sopaipillas station & puppet shows."
+    ),(
+    "https://cdn.pixabay.com/photo/2015/07/02/14/49/stills-829182__480.jpg",
+    3.3,
+    22,
+    "Stranahan's Colorado Whiskey Tour",
+    "Tour mUseum",
+    47.47,
+    "CO",
+    False,
+    "If you ever wanted to learn how to drink whiskey, try the tasting tour. The staff was friendly, causal and very knowledgeable. The tasting process is well thought out, allowing you to smell some of the ingredients to help educate you on the distilling process."
+    ),(
+    "https://cdn.pixabay.com/photo/2014/03/23/19/57/rafting-293542__480.jpg",
+    3.7,
+    75,
+    "Echo Canyon River Expeditions",
+    "Tours Sports",
+    90.86,
+    "CO",
+    False,
+    "Echo Canyon has 40 years of experience in providing rafting adventures and making vacation memories to last a lifetime! Offering NEW Premier Packages as well as Half-Day, Full-Day and Multi-Day river trips on the Arkansas River. "
+    ),(
+    "https://cdn.pixabay.com/photo/2019/10/25/18/43/crazy-horse-memorial-4577688__480.jpg",
+    4.4,
+    176,
+    "Crazy Horse Memorial",
+    "Parks Museum",
+    12,
+    "SD",
+    FALSE,
+    "The Crazy Horse Memorial is a mountain monument under construction on privately held land in the Black Hills, in Custer County, South Dakota, United States. It will depict the Oglala Lakota warrior, Crazy Horse, riding a horse and pointing to his tribal land."
+    ),(
+    "https://cdn.pixabay.com/photo/2015/07/02/10/16/circus-828680_1280.jpg",
+    1.9,
+    792,
+    "The Ringling Circus Museum",
+    "Museum",
+    25,
+    "FL",
+    FALSE,
+    "The John and Mable Ringling Museum of Art is a 66-acre museum complex in Sarasota, Florida, featuring the State Art Museum of Florida, Circus Museum, Ca’ d’Zan mansion, and Bayfront Gardens. "
     );
