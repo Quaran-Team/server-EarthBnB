@@ -1329,4 +1329,769 @@ insert into todo (
     "FL",
     FALSE,
     "The John and Mable Ringling Museum of Art is a 66-acre museum complex in Sarasota, Florida, featuring the State Art Museum of Florida, Circus Museum, Ca’ d’Zan mansion, and Bayfront Gardens. "
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    3.3,
+    33,
+    "Jim's Mini-golf",
+    "Sports",
+    14.99,
+    "GA",
+    FALSE,
+    "Best mini golf in the state. It's fun It's neat it's golf but mini."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/58/mini-golf-club-1271983__480.jpg",
+    2.5,
+    25,
+    "pete's putt-putt",
+    "casportstegory",
+    9.97,
+    "AK",
+    False,
+    "Golfing fun"
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/58/mini-golf-club-1271983_1280.jpg",
+    4.2,
+    42,
+    "Jim's Golfin",
+    "Sports",
+    16.22,
+    "AK",
+    FALSE,
+    "That's a big hook That's a floater. Pitch and run Dancing on the practise ground. Swear at the Captain and get banned. 3-iron comes out, Tearing up a scorecard Gary Player "
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/01/20/24/mini-golf-course-4378263__480.jpg",
+    4.1,
+    14,
+    "Garys golfin",
+    "Sports",
+    7.37,
+    "AK",
+    FALSE,
+    " Lose your putter, forced to go home. And shank it. Take a mulligan, Cheating on the next hole Hole in One! "
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/12/20/12/golf-2225626__480.jpg",
+    3.3,
+    7,
+    "golf by liza frank",
+    "Sports",
+    4.79,
+    "AK",
+    FALSE,
+    "Chip in A scratch golfer, And snap your club in half. Pull out the driver and.... Looking for a new angle of attack Win the Green Jacket Pull out the driver and"
+    ),(
+    "https://cdn.pixabay.com/photo/2013/07/12/18/21/mini-golf-153327__480.png",
+    3.6,
+    83,
+    "GOLF GOLF",
+    "Sports",
+    17.99,
+    "AK",
+    FALSE,
+    "GOLF golf GOLF goLF golF golF GOLf golf goLf gOlf GoLf gOlF golfgolf."
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    2.6,
+    26,
+    "GO GOLFIN",
+    "Sports",
+    6.29,
+    "AK",
+    FALSE,
+    "Tearing up a scorecard Weak grip Oops, your ball is in the bunker. Pretend nothing just happened and smile. Walking over the putting green. Pitching Wedge And shank it. Pull out your 3-wood and"
+    ),(
+    "https://cdn.pixabay.com/photo/2013/11/28/10/03/golfing-219994__480.jpg",
+    4.1,
+    327,
+    "PattyZ Putts",
+    "Sports",
+    13.99,
+    "AK",
+    FALSE,
+    "Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons A scratch golfer, That's a big hook Swing quickly, Get your 5 wood And good luck! Aiming for the groundsman Good break! A gentle fade."
+    ),(
+    "https://cdn.pixabay.com/photo/2015/08/09/10/35/golf-881382__480.jpg",
+    3.9,
+    17,
+    "Timmy's putts",
+    "sports",
+    6.94,
+    "CA",
+    FALSE,
+    "Struck by lightning Cleek Texas Wedge Condor Weak grip That's a gimme. For getting banned from the course."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/03/28/06/47/sport-3268447__480.jpg",
+    4.1,
+    7,
+    "Gwens Golf greens",
+    "sports",
+    4.96,
+    "CA",
+    FALSE,
+    "Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons A scratch golfer, That's a big hook Swing quickly, Get your 5 wood And good luck! Aiming for the groundsman Good break! A gentle fade."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/59/ball-1271985__480.jpg",
+    1.7,
+    71,
+    "GOLF golf",
+    "Sports",
+    0,
+    "CO",
+    FALSE,
+    "At St. Andrews, At St. Andrews, A gentle fade Completely missed the ball, oops! And good luck! Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons "
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/01/20/24/mini-golf-course-4378263__480.jpg",
+    3.3,
+    3,
+    "Gulf Golfz",
+    "Sport",
+    29.95,
+    "CO",
+    FALSE,
+    "At St. Andrews, At St. Andrews, A gentle fade Completely missed the ball, oops! And good luck! Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons "
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    2.6,
+    62,
+    "AMYS Lil Golf Club",
+    "sports",
+    27,
+    "CO",
+    FALSE,
+    "At St. Andrews, At St. Andrews, A gentle fade Completely missed the ball, oops! And good luck! Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons "
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/04/14/11/miniature-golf-4383898__480.jpg",
+    3.6,
+    8,
+    "Mayas mini golf",
+    "Sport",
+    47.98,
+    "CO",
+    FALSE,
+    "At St. Andrews, At St. Andrews, A gentle fade Completely missed the ball, oops! And good luck! Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons "
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/26/miniature-golf-2254579__480.jpg",
+    3.2,
+    23,
+    "TINA golf golf",
+    "SPORTS",
+    44.55,
+    "CO",
+    FALSE,
+    "At St. Andrews, At St. Andrews, A gentle fade Completely missed the ball, oops! And good luck! Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons "
+    ),(
+    "https://cdn.pixabay.com/photo/2018/03/28/06/47/sport-3268447__480.jpg",
+    3.3,
+    6,
+    "Gary golf",
+    "sports",
+    7.77,
+    "CO",
+    FALSE,
+    "At St. Andrews, At St. Andrews, A gentle fade Completely missed the ball, oops! And good luck! Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons "
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/04/14/11/miniature-golf-4383898__480.jpg",
+    2.2,
+    2,
+    "gulf golf",
+    "sports",
+    22.75,
+    "FL",
+    FALSE,
+    "At St. Andrews, At St. Andrews, A gentle fade Completely missed the ball, oops! And good luck! Fried egg Mashie Looking for a new angle of attack A gentle fade Long irons "
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    2.7,
+   7,
+    "fun time golf",
+    "sports",
+    7.99,
+    "FL",
+    FALSE,
+    "Long irons Ostrich Using your putter to plumb-bob, Shouting Fore as loud as you can. Thinking your at Sunningdale You got the yips Looking for a new angle of attack Out of anger"
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/59/ball-1271985__480.jpg",
+    3.1,
+    13,
+    "good time golf",
+    "sport",
+    4.67,
+    "FL",
+    False,
+    "Long irons Ostrich Using your putter to plumb-bob, Shouting Fore as loud as you can. Thinking your at Sunningdale You got the yips Looking for a new angle of attack Out of anger"
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/01/20/24/mini-golf-course-4378263__480.jpg",
+    3.1,
+    576,
+    "time time golf golf",
+    "sport",
+    18.42,
+    "FL",
+    FALSE,
+    "Long irons Ostrich Using your putter to plumb-bob, Shouting Fore as loud as you can. Thinking your at Sunningdale You got the yips Looking for a new angle of attack Out of anger"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/26/miniature-golf-2254579__480.jpg",
+    1.1,
+    1,
+    "bad golfing",
+    "sports",
+    66.66,
+    "FL",
+    FALSE,
+    "Long irons Ostrich Using your putter to plumb-bob, Shouting Fore as loud as you can. Thinking your at Sunningdale You got the yips Looking for a new angle of attack Out of anger"
+    ),(
+    "https://cdn.pixabay.com/photo/2018/03/28/06/47/sport-3268447__480.jpg",
+    3.3,
+    33,
+    "golf title here",
+    "sport",
+    7.63,
+    "FL",
+    FALSE,
+    "That's a gimme. Dip your opponents grips in sticky paste, Ostrich At Augusta National Scoring a golden ferret from the bunker, Losing your ball in the rough, Score a double bogey "
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/01/20/24/mini-golf-course-4378263__480.jpg",
+    2.2,
+    19,
+    "MO Golf",
+    "sports",
+    20,
+    "MO",
+    FALSE,
+    "Your ball hits the Captain, Reading the green, That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood"
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508635__480.jpg",
+    2.2,
+    44,
+    "MOEs Golf",
+    "sport",
+    18.99,
+    "MO",
+    FALSE,
+    "Your ball hits the Captain, Reading the green, That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/12/20/12/golf-2225626__480.jpg",
+    1.9,
+    6,
+    "mulligans",
+    "sports",
+    19.18,
+    "MO",
+    FALSE,
+    "Your ball hits the Captain, Reading the green, That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood"
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/58/ball-1271984__480.jpg",
+    3.3,
+    645,
+    "green golf ball",
+    "sports",
+    12,
+    "MO",
+    FALSE,
+    "Your ball hits the Captain, Reading the green, That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood"
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    3.7,
+    5,
+    "orange golf",
+    "sports",
+    19,
+    "MO",
+    FALSE,
+    "Your ball hits the Captain, Reading the green, That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood"
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/04/14/11/miniature-golf-4383898__480.jpg",
+    4.4,
+    72,
+    "Smurf golf",
+    "sports",
+    45,
+    "MO",
+    FALSE,
+    "Your ball hits the Captain, Reading the green, That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood"
+    ),(
+    "https://cdn.pixabay.com/photo/2013/07/12/18/21/mini-golf-153327__480.png",
+    4.1,
+    28,
+    "pete golf",
+    "sports",
+    8,
+    "MO",
+    FALSE,
+    "Your ball hits the Captain, Reading the green, That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/26/miniature-golf-2254579__480.jpg",
+    3.3,
+    7,
+    "NC GOLF",
+    "sports",
+    9.99,
+    "NC",
+    FALSE,
+    "Tearing up a scorecard Weak grip Oops, your ball is in the bunker. Pretend nothing just happened and smile. Walking over the putting green. Pitching Wedge And shank it."
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/20/miniature-golf-2254561__480.jpg",
+    3.9,
+    43,
+    "RED BALL GOLF",
+    "sports",
+    14.88,
+    "NC",
+    FALSE,
+    "Tearing up a scorecard Weak grip Oops, your ball is in the bunker. Pretend nothing just happened and smile. Walking over the putting green. Pitching Wedge And shank it."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508634__480.jpg",
+    2.9,
+    7,
+    "mini-golf",
+    "sports",
+    8.25,
+    "NC",
+    FALSE,
+    "Tearing up a scorecard Weak grip Oops, your ball is in the bunker. Pretend nothing just happened and smile. Walking over the putting green. Pitching Wedge And shank it."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508634__480.jpg",
+    4.2,
+    66,
+    "golf golf golf",
+    "sports",
+    9.77,
+    "NC",
+    False,
+    "Tearing up a scorecard Weak grip Oops, your ball is in the bunker. Pretend nothing just happened and smile. Walking over the putting green. Pitching Wedge And shank it."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508634__480.jpg",
+    3.3,
+    18,
+    "putt mini golf golf",
+    "sports",
+    18.18,
+    "NC",
+    FALSE,
+    "Tearing up a scorecard Weak grip Oops, your ball is in the bunker. Pretend nothing just happened and smile. Walking over the putting green. Pitching Wedge And shank it."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508634__480.jpg",
+    4.4,
+    44,
+    "golf putt game fun happy",
+    "sports",
+    22.99,
+    "NC",
+    FALSE,
+    "Struck by lightning Cleek Texas Wedge Condor Weak grip That's a gimme. For getting banned from the course. Take a mulligan, You got the yips Better luck next time!"
+    ),(
+    "https://cdn.pixabay.com/photo/2013/07/12/18/21/mini-golf-153327__480.png",
+    3.5,
+    77,
+    "golfing",
+    "sports",
+    22.77,
+    "NC",
+    FALSE,
+    "Struck by lightning Cleek Texas Wedge Condor Weak grip That's a gimme. For getting banned from the course. Take a mulligan, You got the yips Better luck next time!"
+    ),(
+    "https://cdn.pixabay.com/photo/2013/07/12/18/21/mini-golf-153327__480.png",
+    4,
+    44,
+    "sport golf putt",
+    "sport",
+    67,
+    "NC",
+    TRUE,
+    "Struck by lightning Cleek Texas Wedge Condor Weak grip That's a gimme. For getting banned from the course. Take a mulligan, You got the yips Better luck next time!"
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/01/20/24/mini-golf-course-4378263__480.jpg",
+    3.1,
+    45,
+    "Yankee Golf",
+    "sports",
+    43,
+    "NY",
+    FALSE,
+    "Struck by lightning Cleek Texas Wedge Condor Weak grip That's a gimme. For getting banned from the course. Take a mulligan, You got the yips Better luck next time!"
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/56/mini-golf-club-1271969__480.jpg",
+    5,
+    1,
+    "wise guys golf",
+    "sports",
+    33.22,
+    "NY",
+    FALSE,
+    "Struck by lightning Cleek Texas Wedge Condor Weak grip That's a gimme. For getting banned from the course. Take a mulligan, You got the yips Better luck next time!"
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    4.8,
+    8,
+    "yous guys golf",
+    "sports",
+    33.44,
+    "NY",
+    FALSE,
+    "Condor Dancing on the practise ground. Long irons At Augusta National That's a big slice Shouting Fore as loud as you can. Tom Watson Pretend nothing just happened and smile. Tiger Woods Fluffy lie Get thrown off the course Tiger Woods."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508634__480.jpg",
+    2.2,
+    4,
+    "GOLFING GOOD TIME",
+    "sport",
+    12,
+    "SD",
+    FALSE,
+    "Score an eagle That's a big hook Losing your ball in the rough, You deserve a mulligan. Struck by lightning Jigger Begin the back nine holes, Mind where the divot lands!"
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/57/ball-1271977__480.jpg",
+    3.3,
+    4,
+    "GOLFING OK TIME",
+    "sport",
+    17,
+    "SD",
+    FALSE,
+    "Score an eagle That's a big hook Losing your ball in the rough, You deserve a mulligan. Struck by lightning Jigger Begin the back nine holes, Mind where the divot lands!"
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    3.6,
+    9,
+    "time 4 golf",
+    "sport",
+    4.44,
+    "SD",
+    FALSE,
+    "Dip your opponents grips in sticky paste, Ostrich At Augusta National Scoring a golden ferret from the bunker, Losing your ball in the rough, Score a double bogey Pulled to the left "
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/58/ball-1271984__480.jpg",
+    2.1,
+    21,
+    "GOLF TIMEZ",
+    "sport",
+    67,
+    "SD",
+    FALSE,
+    "Dip trip lip skip your opponents grips in sticky paste, Ostrich At Augusta National Scoring a golden ferret from the bunker, Losing your ball in the rough, Score a double bogey Pulled to the left "
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508635__480.jpg",
+    2.7,
+    9,
+    "GOLF GOLF GOLF",
+    "sport",
+    12.99,
+    "SD",
+    FALSE,
+    "HEY That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood and"
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/01/20/24/mini-golf-course-4378263__480.jpg",
+    1.7,
+    8,
+    "GGOOLLFFFF!!!!",
+    "sport",
+    18.17,
+    "SD",
+    FALSE,
+    "hat's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood and"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/12/20/12/golf-2225626__480.jpg",
+    3.3,
+    6,
+    "GG OO LL FF !!",
+    "sport",
+    49,
+    "SD",
+    FALSE,
+    "That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood and"
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    5,
+    5,
+    "5 golf",
+    "sports",
+    5,
+    "TN",
+    FALSE,
+    "5 golf golf for 5. Five dollar holla golfa"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/19/miniature-golf-2254551__480.jpg",
+    4.4,
+    44,
+    "fore forty golf",
+    "sport",
+    4.40,
+    "TN",
+    FALSE,
+    "cheaper and better and faster and cooler and cleaner than that 5 golf hole place they stink we rule try the best"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/26/miniature-golf-2254579__480.jpg",
+    3.9,
+    62,
+    "DREAM GOLF",
+    "sport dream",
+    22.44,
+    "TN",
+    FALSE,
+    "FALSE this place is a lie it's not real none of this is. It's all an ilusion in a dream in a movie in a cut scene on a shelf of an alien kid's science project. "
+    ),(
+    "https://cdn.pixabay.com/photo/2014/12/01/15/54/golf-552912__480.jpg",
+    4.0,
+    88,
+    "3G GOLF golf GOLF ",
+    "sports",
+    77,
+    "TN",
+    FALSE,
+    "Ostrich At Augusta National Scoring a golden ferret from the bunker, Losing your ball in the rough, Score a double bogey Pulled to the left To distract your opponent Mashie For getting banned from the course. Look out a ball is coming straight for you! Your ball hits the Captain"
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    4.4,
+    67,
+    "G Golf G G Golf",
+    "sport",
+    42,
+    "TN",
+    FALSE,
+    "Get a new Sand Iron Steady footwork Roll around on the ground laughing, Run down the fairway shouting Win the Green Jacket Dip your opponents grips in sticky paste, Cheating"
+    ),(
+    "https://cdn.pixabay.com/photo/2018/03/28/06/47/sport-3268447__480.jpg",
+    3.6,
+    33,
+    "GOLF GOLF",
+    "sport",
+    18,
+    "TN",
+    FALSE,
+    "Dip your opponents grips in sticky paste, Ostrich At Augusta National Scoring a golden ferret from the bunker, Losing your ball in the rough, Score a double bogey Pulled to the left To distract your opponent Mashie"
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/04/14/11/miniature-golf-4383898__480.jpg",
+    4.1,
+    39,
+    "GOLF",
+    "sport",
+    20,
+    "TN",
+    FALSE,
+    "That's a floater. Roll around on the ground laughing, Tiger Woods Condor Ostrich To distract your opponent Pull out your 3-wood and"
+    ),(
+    "https://cdn.pixabay.com/photo/2015/09/27/16/08/golfer-960914__480.jpg",
+    4.2,
+    24,
+    "GOLF FILLER CARD",
+    "sport",
+    99,
+    "TN",
+    FALSE,
+    "gotta have em all matchy matchy lined up and swing - great shot you aced it in the hole!"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/12/20/12/golf-2225626__480.jpg",
+    2.2,
+    4,
+    "GGGG Golf",
+    "sport",
+    22,
+    "WY",
+    FALSE,
+    "Open stance Take a mulligan, Shouting Fore as loud as you can. Struck by lightning Gary Player Niblick Top your tee shot, Ben Hogan"
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508635__480.jpg",
+    4.3,
+    43,
+    "GOOD GOLF golf",
+    "sport",
+    25,
+    "WY",
+    FALSE,
+    "Begin the back nine holes, The 19th Hole. A gentle fade Tom Watson Struck by lightning Your ball hits the Captain, Top your tee shot, Ostrich."
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/01/20/24/mini-golf-course-4378263__480.jpg",
+    3.8,
+    18,
+    "GOLFING GOOD",
+    "sport",
+    22,
+    "WY",
+    FALSE,
+    "Begin the back nine holes, The 19th Hole. A gentle fade Tom Watson Struck by lightning Your ball hits the Captain, Top your tee shot, Ostrich."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/59/ball-1271985__480.jpg",
+    3.3,
+    9,
+    "GULF GOLF",
+    "sport",
+    22,
+    "WY",
+    FALSE,
+    "your ball is in the bunker. To distract your opponent Out of frustration Run down the fairway shouting Condor Cleek Begin the front nine holes, At the Clubhouse, Jack Nicklaus Weak grip While heckling your opponent, Cleek Steady footwork Mashie Take a mulligan"
+    ),(
+    "https://cdn.pixabay.com/photo/2013/07/12/18/21/mini-golf-153327__480.png",
+    3.5,
+    7,
+    "55 golf club",
+    "sport",
+    55,
+    "WY",
+    FALSE,
+    "A scratch golfer, Oops, your ball is in the bunker. That's a big slice Weak grip Pitching Wedge And lose your mind, Mind where the divot lands!"
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508634__480.jpg",
+    4.5,
+    37,
+    "WHY GOLF WHY?",
+    "sport",
+    18.99,
+    "WY",
+    FALSE,
+    "WHY GOLF BECAUSE GOLF THATS WHY WE ARE BETTER THAN WY GOLF BY ONE WHOLE H IN OUR NAME!"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/20/miniature-golf-2254561__480.jpg",
+    3.3,
+    12,
+    "WY GOLFING",
+    "sport",
+    17,
+    "WY",
+    FALSE,
+    "Palmer Completely missed the ball, oops! Jigger Chip in Visit the golf range, While heckling your opponent, Score an albatross That's a floater. Score an eagle"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/26/miniature-golf-2254579__480.jpg",
+    4.4,
+    33,
+    "GOLF golf",
+    "Golf golf",
+    55,
+    "WY",
+    FALSE,
+    "GOLF GOLF GOLF GOLF GOLF GOLF GOLF GOLF golf golf golf GOlf GOlf GOlf goLF goLF gOLF Golf goLF golF!"
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/26/miniature-golf-2254579__480.jpg",
+    4.1,
+    17,
+    "Blue Golf",
+    "sport",
+    25,
+    "VT",
+    FALSE,
+    "Pulled to the left And lose your mind, Pitch and run Cheating on the next hole Lose your putter, forced to go home. Phil Mickelson Start your backswing, take it slow."
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/20/miniature-golf-2254561__480.jpg",
+    3.3,
+    33,
+    "Red Golf",
+    "sport",
+    33,
+    "VT",
+    FALSE,
+    "Niblick Oops, your ball is in the bunker. Carrying your clubs Pulled to the left Open stance Dancing on the practise ground. Jigger Long irons Get thrown off the course The 19th Hole. "
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    2.2,
+    22,
+    "Orange Golf",
+    "sport",
+    22,
+    "VT",
+    FALSE,
+    "Good rhythm Brassie Swear at the Captain and get banned. The 19th Hole. Scoring a golden ferret from the bunker."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/59/ball-1271985__480.jpg",
+    4.4,
+    42,
+    "Yellow Golf",
+    "sport",
+    24.42,
+    "VT",
+    FALSE,
+    "Short irons Scoring a golden ferret from the bunker, Chip in Use your Lob Wedge You skied it! Splash shot Open clubface Jack Nicklaus Good rhythm Out of anger Score a birdie."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/57/ball-1271977__480.jpg",
+    3.8,
+    38,
+    "38 special golf",
+    "sport",
+    38.38,
+    "VT",
+    FALSE,
+    "And snap your club in half. Open clubface Oops, your ball is in the bunker. To distract your opponent Out of frustration Run down the fairway shouting Condor Cleek Begin the front nine holes, At the Clubhouse."
+    ),(
+    "https://cdn.pixabay.com/photo/2017/04/23/18/26/miniature-golf-2254579__480.jpg",
+    3,
+    7,
+    "royals golfs",
+    "sport",
+    21.12,
+    "VT",
+    FALSE,
+    "And snap your club in half. Open clubface Oops, your ball is in the bunker. To distract your opponent Out of frustration Run down the fairway shouting Condor Cleek Begin the front nine holes, At the Clubhouse,"
+    ),(
+    "https://cdn.pixabay.com/photo/2013/07/12/18/21/mini-golf-153327__480.png",
+    2.2,
+    33,
+    "fore golf",
+    "sport",
+    76,
+    "VT",
+    FALSE,
+    "GOLF GOLF GOLF GOLF GOLF golf golf golf golf golf Golf flog golf."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/06/30/23/54/miniature-golf-3508634__480.jpg",
+    4.1,
+    14,
+    "1 golf",
+    "sport",
+    11.11,
+    "TX",
+    FALSE,
+    "Short irons Scoring a golden ferret from the bunker, Chip in Use your Lob Wedge You skied it! Splash shot Open club face Jack Nicklaus Good rhythm."
+    ),(
+    "https://cdn.pixabay.com/photo/2018/03/28/06/47/sport-3268447__480.jpg",
+    2.2,
+    222,
+    "2 golf",
+    "sport",
+    22.22,
+    "TX",
+    FALSE,
+    "Short irons Scoring a golden ferret from the bunker, Chip in Use your Lob Wedge You skied it! Splash shot Open club face Jack Nicklaus Good rhythm."
+    ),(
+    "https://cdn.pixabay.com/photo/2019/08/04/14/11/miniature-golf-4383898__480.jpg",
+    3.3,
+    3333,
+    "3 golf",
+    "sport",
+    33.33,
+    "TX",
+    FALSE,
+    "Short irons Scoring a golden ferret from the bunker, Chip in Use your Lob Wedge You skied it! Splash shot Open club face Jack Nicklaus Good rhythm."
+    ),(
+    "https://cdn.pixabay.com/photo/2013/07/12/18/21/mini-golf-153327__480.png",
+    4.4,
+    4321,
+    "FORE golf",
+    "sport",
+    44.44,
+    "TX",
+    FALSE,
+    "Short irons Scoring a golden ferret from the bunker, Chip in Use your Lob Wedge You skied it! Splash shot Open club face Jack Nicklaus Good rhythm."
+    ),(
+    "https://cdn.pixabay.com/photo/2020/08/06/17/35/ball-5468668__480.jpg",
+    5,
+   555,
+    "5 golf",
+    "sport",
+    5.55,
+    "TX",
+    FALSE,
+    "Short irons Scoring a golden ferret from the bunker, Chip in Use your Lob Wedge You skied it! Splash shot Open club face Jack Nicklaus Good rhythm."
+    ),(
+    "https://cdn.pixabay.com/photo/2016/03/22/00/57/ball-1271978__480.jpg",
+    3.6,
+    693,
+    "golf number 6",
+    "sport",
+    67.8,
+    "TX",
+    FALSE,
+    "Short irons Scoring a golden ferret from the bunker, Chip in Use your Lob Wedge You skied it! Splash shot Open club face Jack Nicklaus Good rhythm."
     );
+
+
+
+
+
